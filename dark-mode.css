@@ -21,7 +21,8 @@
 }
 
 [data-theme="dark"] a {
-  color: #F1948A;
+  color: #3498DB; /*blue*/
+  /* color: #F1948A; /*light red */
    /* color: #90CAF9;    /* light blue */
     /* color: #F1C40F;    /*yellow */
 
