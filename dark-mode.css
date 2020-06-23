@@ -20,9 +20,14 @@
   color: #eee;
 }
 
-[data-theme="dark"] .nav-bar {
+/* [data-theme="dark"] .nav-bar {
   background-color: #F5CBA7 !important;
   color: #eee;
+} */
+
+[data-theme="dark"] .nav-link {
+  background-color: #F5CBA7
+  color: #fff !important;
 }
 
 [data-theme="dark"] a {
