@@ -1,0 +1,40 @@
+[data-theme="dark"] {
+  background-color: #000000 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .card {
+  background-color: #000000 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] a {
+   color: #90CAF9;    /* light blue */
+    /* color: #F1C40F;    /*yellow */
+
+    /* color: #E74C3C;   /* brick red*/
+
+    /* color: #9CCC65; /*green*/
+    text-decoration: none;
+    font-weight: normal;
+
+    /* &:visited {
+        color: darken($brand-color, 25%);
+    } */
+
+    /* &:hover {
+        color: $text-color;
+        text-decoration: underline;} */
+}

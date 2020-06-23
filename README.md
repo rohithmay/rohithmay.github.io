@@ -1,2 +1,4 @@
-# rohithmay.github.io
-Personal Website
+rohithmay.github.io
+======================
+
+Home page of Rohith Krishna
