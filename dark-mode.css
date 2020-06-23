@@ -20,11 +20,6 @@
   color: #eee;
 }
 
-[data-theme="dark"] .nav-bar {
-  background-color: #16A085 !important;
-  color: #eee;
-}
-
 
 
 [data-theme="dark"] a {
