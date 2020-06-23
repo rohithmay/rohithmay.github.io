@@ -1,5 +1,5 @@
 ---
-title: Review of papers on Exchange Rate interventions in the Indian context.
+title: Modeling Exchange Rate Volatility in India - A review of forex interventions
 author: Rohith Krishna
 date: 27 April 2020
 layout: post

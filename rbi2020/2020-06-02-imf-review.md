@@ -1,5 +1,5 @@
 ---
-title: Review of the IMF Occasional Paper 267 on Exchange Rate in Inflation-targeting EMEs
+title: Exchange rates in Inflation-targeting EMEs
 author: Rohith Krishna
 date: 2 June 2020
 layout: post
