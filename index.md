@@ -135,13 +135,17 @@ Template for latest updates here
             <!-- Enter contents here -->
                         <div style="text-align:justify;">
 
+
+                        Hey! I'm Rohith, a student of data science, in my second year of a PGDM program. I'm carrying coursework in the areas of machine learning, finance, linear algebra etc.  Prior to this, I pursued a Masters course in physics with skills in computational physics and mathematical modeling. <br/><br/>
+
+                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings on life as it ebbs and flows.
+
+                        Quick links to my project pages:<br/><br/>
+
+<!--
                 I am a student of data science currently in my second year of PGDM, carrying out coursework in fields such as machine learning, finance and economics. Prior to this, I pursued a Masters course in physics with skills in computational physics and mathematical modeling.   <br/>  <br/>
 
-                This webpage is a repository of my projects and academic notes, predominantly in the fields of machine learning, macroeconomics, corporate finance, linear algebra and quantum computing. This page also doubles as my blog where I post occasional musings on life as it ebbs and flows.
-
-                Quick links to my project home pages:<br/><br/>
-
-
+                This webpage is a repository of my projects and academic notes, predominantly in the fields of machine learning, macroeconomics, corporate finance, linear algebra and quantum computing. This page also doubles as my blog where I post occasional musings on life as it ebbs and flows. -->
 
                 <a href="/rbi2020">
                 <button type="button" class="btn btn-secondary"> <strong> Exchange Rate Volatility </strong></button> </a>
