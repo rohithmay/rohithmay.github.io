@@ -1,0 +1,39 @@
+# Site settings
+title: Rohith Krishna
+email: rohithslog@gmail.com
+description: >
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://rohithmay.github.io" # the base hostname & protocol for your site
+twitter_username: rohithmay
+github_username:  rohithmay
+
+name: Rohith Krishna
+timezone: UTC
+lsi: true
+
+# Build settings
+markdown: kramdown
+kramdown:
+   math_engine: mathjax
+highlighter: rouge
+
+# permalink: pretty
+# permalink: none
+
+permalink: /:year-:month-:day-:title
+collections:
+- collection
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: rohithmay
+
+# Use > in fields above to ignore lines.
+
+# collections:
+#   my_collection:
+#     output: true
+#     permalink: /:collection/:name
