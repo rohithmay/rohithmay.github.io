@@ -18,9 +18,9 @@
   url: /blog
   external: false
 
-- title: Reading List
-  url: /readinglist
-  external: false
+# - title: Reading List
+#   url: /readinglist
+#   external: false
 
 # - title: Resume
 #   url: "https://rohithmay.github.io/resume/CVsummer20.pdf"
