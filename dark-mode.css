@@ -21,9 +21,9 @@
 }
 
 [data-theme="dark"] a {
-   color: #90CAF9;    /* light blue */
+   /* color: #90CAF9;    /* light blue */ 
     /* color: #F1C40F;    /*yellow */
-
+    color: #FFC107/* majestic yellow */
     /* color: #E74C3C;   /* brick red*/
 
     /* color: #9CCC65; /*green*/
