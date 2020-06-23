@@ -8,12 +8,12 @@ title: Rohith Krishna
           <div class="row">
 
 
-                  <div class="col mx-auto d-flex align-items-right">
+                  <div class="col ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
-                           src="images/bio-photo1.jpg"
+                           src="images/bio-photo.jpg"
                            class="rounded"
-                           width="150" />
+                           width="210" />
                   </div>
 
                   <div class="col mr-auto d-flex align-items-left">
