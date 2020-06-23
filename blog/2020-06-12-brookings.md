@@ -5,6 +5,7 @@ date: 12 June 2020
 layout: post
 # category: macroeconomics
 tags: [open economy, exchange-rate, inflation-targeting]
+permalink: /new
 ---
 
 The Brookings India paper reviewed is titled: *Indian Monetary Policy in the time of Inflation-Targeting and Demonetisation* and is available [here](https://www.brookings.edu/wp-content/uploads/2018/06/Final-Monetary-Policy.pdf).
@@ -88,9 +89,4 @@ It was pointed out by the Committee for Financial Sector Reforms that:
 
 
 
-India formally adopted Inflation-Targeting, and a Monetary Policy Framework Agreement (MPFA) was signed between GoI and RBI on Feb 25, 2015. The target was set to bring down inflation below 6% by Jan 2016, 4 % for that financial year and all other years with a band of +/- 2 percent. 
-
-
-
-
-
+India formally adopted Inflation-Targeting, and a Monetary Policy Framework Agreement (MPFA) was signed between GoI and RBI on Feb 25, 2015. The target was set to bring down inflation below 6% by Jan 2016, 4 % for that financial year and all other years with a band of +/- 2 percent.
