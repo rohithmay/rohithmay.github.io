@@ -143,7 +143,7 @@ Template for latest updates here
 
 
 
-                <a href="/exchange-rate">
+                <a href="/rbi2020">
                 <button type="button" class="btn btn-secondary"> <strong> Exchange Rate Volatility </strong></button> </a>
 
                 <!-- <a href="https://rohithmay.github.io/macroeconomics-20">
