@@ -15,7 +15,7 @@ title: Rohith Krishna
                            width="170" />
                   </div>
 
-                  <div class="col col-2 mr-auto d-flex align-items-left">
+                  <div class="col col-4 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
                         <h2> Rohith Krishna </h2>
