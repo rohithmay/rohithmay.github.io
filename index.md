@@ -5,9 +5,10 @@ title: Rohith Krishna
 
 <div class="container-fluid">
 
+
           <div class="row">
-                  <div class="col ml-auto d-flex align-items-center">
-                  </div>
+                  <div class="d-flex justify-content-center">
+
                   <div class="col ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
@@ -96,6 +97,7 @@ title: Rohith Krishna
                             </div>
                         </div>
               </div>
+          </div>
 
 
 <!--
