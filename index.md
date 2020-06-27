@@ -5,11 +5,10 @@ title: Rohith Krishna
 
 <div class="container-fluid">
 
-
           <div class="row">
                   <div class="d-flex justify-content-center">
 
-                  <div class="col ml-auto d-flex align-items-center">
+                  <div class="col ml-auto d-flex">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
