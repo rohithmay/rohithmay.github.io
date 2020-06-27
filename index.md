@@ -6,8 +6,8 @@ title: Rohith Krishna
 <div class="container-fluid">
 
           <div class="row">
-
-
+                  <div class="col ml-auto d-flex align-items-center">
+                  </div>
                   <div class="col ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
@@ -26,7 +26,7 @@ title: Rohith Krishna
                             Madras School of Economics <br/>
                             Email: <a data-toggle="tooltip"
                                      data-placement="right"
-                                     title="Write to me here :)">rohithslog@gmail.com</a><br/> <br/>
+                                     title="Write to me here :)">rohithslog@gmail.com</a><br/>
 
                             <nav class="nav">
                                 <!-- <a
