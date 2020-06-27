@@ -9,7 +9,7 @@ title: Rohith Krishna
 
 
                   <div class="col ml-auto d-flex align-items-center">
-                      <img style="margin: 50px 0 0px 0;"
+                      <img style="margin: 0px 0 50px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
                            class="rounded"
