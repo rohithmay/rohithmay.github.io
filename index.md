@@ -9,7 +9,7 @@ title: Rohith Krishna
 
 
                   <div class="col ml-auto d-flex align-items-center">
-                      <img style="margin: 0px 50 0px 0;"
+                      <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
                            class="rounded"
@@ -21,7 +21,7 @@ title: Rohith Krishna
                         <br/>
                         <h2> Rohith Krishna </h2>
 
-                            Graduate Student <br/>
+                            <!-- Graduate Student <br/> -->
                             PGDM in Business Analytics <br/>
                             Madras School of Economics <br/>
                             Email: <a data-toggle="tooltip"
