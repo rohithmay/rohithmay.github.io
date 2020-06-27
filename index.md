@@ -6,9 +6,8 @@ title: Rohith Krishna
 <div class="container-fluid">
 
           <div class="row">
-                  <div class="d-flex justify-content-right">
 
-                  <div class="col ml-auto d-flex align-items-center">
+                  <div class="col col-4 ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
@@ -16,7 +15,7 @@ title: Rohith Krishna
                            width="170" />
                   </div>
 
-                  <div class="col mr-auto d-flex align-items-left">
+                  <div class="col col-2 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
                         <h2> Rohith Krishna </h2>
@@ -96,7 +95,7 @@ title: Rohith Krishna
                             </div>
                         </div>
               </div>
-          </div>
+
 
 
 <!--
