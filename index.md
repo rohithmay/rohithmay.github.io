@@ -12,14 +12,14 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
-                           class="rounded float-right"
-                           width="210" />
+                           class="rounded"
+                           width="170" />
                   </div>
 
                   <div class="col mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
-                        <h1> Rohith Krishna </h1>
+                        <h2> Rohith Krishna </h2>
 
                             Graduate Student <br/>
                             PGDM in Business Analytics <br/>
