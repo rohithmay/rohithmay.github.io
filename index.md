@@ -14,8 +14,10 @@ title: Rohith Krishna
                            class="rounded"
                            width="170" />
                   </div>
+                  <div class="col col-1">
+                        </div>
 
-                  <div class="col col-6 mr-auto d-flex align-items-left">
+                  <div class="col col-5 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
                         <h2> Rohith Krishna </h2>
