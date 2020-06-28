@@ -34,8 +34,9 @@ Consider the day-to-day changes in the price of a stock. It is posited that the 
 
 $$y_{t+1} = y_t + \epsilon_t \\ \Delta y_{t+1} = \epsilon_t $$
 
- where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0.
+where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0.
 
+Zero.
 
 
 
