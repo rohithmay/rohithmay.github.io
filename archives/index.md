@@ -1,7 +1,13 @@
 ---
-layout: default
-title: Rohith Krishna
+layout: page
+title: 🗂️ Archives
 permalink: /archives
 ---
 
-#  🗂️ Archives
+  <div class="col ml-auto mr-auto">
+Here is a list of posts on this site, in reverse chronology.
+
+
+
+
+</div>
