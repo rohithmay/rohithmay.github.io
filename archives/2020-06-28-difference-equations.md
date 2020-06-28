@@ -38,7 +38,7 @@ $$ \Delta y_{t+1} = \epsilon_t $$
 
 where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0.
 
-Zero.
+one.
 
 
 
