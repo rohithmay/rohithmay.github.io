@@ -6,9 +6,15 @@
 #   url: /about/
 #   external: false
 
-- title: Notes
-  url: /notes
+# - title: Notes
+#   url: /notes
+#   external: false
+
+
+- title: Archives
+  url: /archives
   external: false
+
 
 - title: Projects
   url: /projects
