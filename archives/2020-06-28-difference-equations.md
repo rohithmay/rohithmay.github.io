@@ -18,10 +18,26 @@ It is usually possible to decompose time-series data into *trend, cyclical (or s
 
 The irregular component (herein called the *stochastic term*) is of particular importance to us. Although there exists no patterns in this components, positive and negative values often occur in runs. A large value is any period is followed by another large value. Also, over the entire span, the irregular component tends to revert to zero. 
 
-The objective of time-series econometrics is to find the equation of motion [^1] driving the stochastic process, and to use this equation to predict future outcomes. 
+The objective of time-series econometrics is to find the equation of motion driving the stochastic process, and to use this equation to predict future outcomes. [^1] For example, consider a time-series of a variable $$y_t$$, where the subscript $$t$$ denotes the time. The three components could be decomposed as:
+
+- Trend: $$ T_t = 1 +0.1 t$$,
+- Cyclical: $$ S_t = 1.6 \sin \frac{t\pi}{6} $$, and, 
+- Irregular: $$ I_t = 0.7 I_{t-1} + \epsilon_t$$.
 
 
 
 
 
-[^1]: Herein the objective of macroeconomic modelling coincides with that of problems in physics. 
+
+
+
+
+
+
+
+
+
+
+
+
+[^1]: Herein lies its similarity with physics. 
