@@ -38,9 +38,7 @@ $$y_{t+1} = y_t + \epsilon_{t+1}$$
 
 $$ \Delta y_{t+1} = \epsilon_{t+1} $$
 
-where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0. 
-
-The random walk hypothesis can be tested using the following regression model. 
+where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0. The random walk hypothesis can be tested using the following regression model. 
 
 $$ \Delta y_{t+1} = \alpha_0 + \alpha_1 y_t + \epsilon_{t+1}$$
 
@@ -50,17 +48,52 @@ If it turns out that $$ \alpha_0 = \alpha_1 = 0$$, then accept the random walk h
 
 A system of difference equations can be collapsed into separate single equation models. An example is the Samuelson's model (1939) given by:
 
-$$ y_t = c_t + i_t $$ (Real GDP)
+$$ y_t = c_t + i_t $$ 
 
-$$ c_t = \alpha y_{t-1} + \epsilon_{ct} $$ (Consumption)
+$$ c_t = \alpha y_{t-1} + \epsilon_{ct}, \ \ \ 0 <\alpha<1$$
 
-$$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it} $$ (Investment)
+$$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}, \ \ \  \beta>0 $$ 
 
-Where 
+where the equations above measure Real GDP, Consumption and Investment expenditure respectively. Here, $$ y_t, c_t$$ and $$i_t$$ are endogeneous variables of the Keynesian model. $$y_{t-1}, c_{t-1}$$ are pre-determined/lagged endogeneous variables. $$ \epsilon_{ct},\epsilon_{it} $$ are zero mean random distubrances for consumption and investment at time $$t$$; while $$\alpha, \beta$$ are parameters to be estimated. 
+
+### Structural Equation
+
+A *sturctural equation* is one which expresses an endogeneous variable as dependent on current realization of another endogeneous variable. The equation $$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}$$  is therefore structural. Investment spending is proportional to change in consumption and consumption growth necessitates new investment spending. 
+
+### Reduced Form Equation
+
+A *reduced form equation* expresses value of a variable in terms of its own lags, lags of other endogeneous variables, current and past values of endogeneous variables and disturbance terms. While the equation $$ c_t = \alpha y_{t-1} + \epsilon_{ct}$$ is already in reduced form, $$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}$$  is not so because it depends on $$c_t$$ which isn't a lag term. In order to bring it to reduced form:
+
+$$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}$$
+
+$$ i_t = \beta(\alpha y_{t-1} + \epsilon_{ct} -c_{t-1})+ \epsilon_{it}$$
+
+$$ i_t = \alpha\beta y_{t-1} - \beta c_{t-1} + \beta\epsilon_{ct} + \epsilon_{it}$$
+
+which is now in reduced form. Reduced form solution is not unique and can incorporate lag terms too. Hence $$ c_{t-1} = \alpha y_{t-2} + \epsilon_{ct-1} $$ is also in reduced form.  Pluggin this into 
+
+$$ i_t = \alpha\beta y_{t-1} - \beta c_{t-1} + \beta\epsilon_{ct} + \epsilon_{it}$$
+
+$$ i_t = \alpha\beta y_{t-1} - \beta (\alpha y_{t-2} + \epsilon_{ct-1}) + \beta\epsilon_{ct} + \epsilon_{it}$$
+
+$$ i_t = \alpha\beta (y_{t-1} - y_{t-2}) + \beta(\epsilon_{ct} - \epsilon_{ct-1}) + \epsilon_{it}$$
+
+$$ y_t = \alpha y_{t-1} + \epsilon_{ct} + \alpha\beta(y_{t-1} - y_{t-2}) + \beta(\epsilon_{ct} - \epsilon_{ct-1}) + \epsilon_{it}$$
+
+$$ y_t = \alpha(1+\beta)y_{t-1} - \alpha\beta y_{t-2} + (1+\beta)\epsilon_{ct} + \epsilon_{it} - \beta \epsilon_{ct -1}$$ 
+
+$$ y_t = a y_{t-1} +b y_{t-2} +x_t$$
+
+where $$ a = \alpha(1+\beta)$$, $$ b = -\alpha\beta$$ and $$ x_t = (1+\beta)\epsilon_{ct} + \epsilon_{it} - \beta \epsilon_{ct -1}$$. Thus, in the final equation above, $$ y_t $$ is solely expressed as a function of its own lag and thus is in the *univariate reduced form*.
 
 
+
+### References
+
+- Applied Econometric Time Series, 4th Edition, Walter Enders.
 
 
 
 
 [^1]: Herein lies its similarity with physics.
+
