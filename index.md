@@ -189,19 +189,25 @@ Template for latest updates here
         <br/>
 
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
     <div class="col d-flex justify-content-center">
         <div class="inner">
-
-
         <i class="fa fa-copyright" aria-hidden="true"></i> 2020 Rohith Krishna,
 
             <i class="fa fa-code" aria-hidden="true"></i>
             on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.<br/>
-            Made with <i class="fa fa-heart" aria-hidden="true"></i> in Madras.
-
-
-
         </div>
     </div>
+
+    <div class="col d-flex justify-content-center">
+        <div class="inner">
+            Made with <i class="fa fa-heart" aria-hidden="true"></i> in Madras.
+        </div>
+    </div>
+
+
+
+
+
 
 </div>
