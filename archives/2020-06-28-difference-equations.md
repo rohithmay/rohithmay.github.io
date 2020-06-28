@@ -21,7 +21,9 @@ The irregular component (herein called the *stochastic term*) is of particular i
 The objective of time-series econometrics is to find the equation of motion driving the stochastic process, and to use this equation to predict future outcomes. [^1] For example, consider a time-series of a variable $$y_t$$, where the subscript $$t$$ denotes the time. The three components could be decomposed as:
 
 - Trend: $$ T_t = 1 +0.1 t$$,
+
 - Cyclical: $$ S_t = 1.6 \sin \frac{t\pi}{6} $$, and,
+
 - Irregular: $$ I_t = 0.7 I_{t-1} + \epsilon_t$$.
 
 ### Difference Equations
@@ -32,23 +34,29 @@ Difference equations are those where variables are expressed as a fuction of tim
 
 Consider the day-to-day changes in the price of a stock. It is posited that the changes should have a mean value of 0. Effiecient speculation in the market drives up the stock price and no one would hold the stock if the price depreciates (rational investor). If $$ y_t$$ is the log of price of a share of this stock, then
 
-$$y_{t+1} = y_t + \epsilon_t$$
+$$y_{t+1} = y_t + \epsilon_{t+1}$$
 
-$$ \Delta y_{t+1} = \epsilon_t $$
+$$ \Delta y_{t+1} = \epsilon_{t+1} $$
 
-where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0.
+where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0. 
 
-one.
+The random walk hypothesis can be tested using the following regression model. 
 
+$$ \Delta y_{t+1} = \alpha_0 + \alpha_1 y_t + \epsilon_{t+1}$$
 
+If it turns out that $$ \alpha_0 = \alpha_1 = 0$$, then accept the random walk hypothesis and if not, reject. Further, an assumption is that the mean of $$ \epsilon_{t+1}$$ is 0. If $$ \epsilon_{t+1}$$ turns out to be predictable, even then, reject the random walk hypothesis. 
 
+## Reduced Forms and Structural Equations
 
+A system of difference equations can be collapsed into separate single equation models. An example is the Samuelson's model (1939) given by:
 
+$$ y_t = c_t + i_t $$ (Real GDP)
 
+$$ c_t = \alpha y_{t-1} + \epsilon_{ct} $$ (Consumption)
 
+$$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it} $$ (Investment)
 
-
-
+Where 
 
 
 
