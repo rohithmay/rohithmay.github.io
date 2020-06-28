@@ -188,7 +188,8 @@ Template for latest updates here
 
         <br/>
 
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <!-- <br/><br/><br/><br/> -->
+    <br/><br/><br/><br/><br/><br/>
 
     <div class="col d-flex justify-content-center">
         <div class="inner">
