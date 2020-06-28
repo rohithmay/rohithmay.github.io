@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 🗂️ Archives
+# title: 🗂️ Archives
 permalink: /archives
 comments: false
 ---
 
-Here is a list of posts on this site, in reverse chronology. (tba)
+# 🗂️ Archives
+
+*Here is a list of posts on this site, in reverse chronology.*
 <!--  Sample table for later customization - more margin and padding needed!
 |     Date    |     Post    |
 |-------------|-------------|
