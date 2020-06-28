@@ -109,6 +109,17 @@ strong {
   background-color: #F5F5F5 !important;
 }
 
+// For making tables in markdown with borders
+td, th {
+    border: 1px solid grey
+  }
+
+tr, td{
+    padding: 2px !important;
+    margin: 0 !important;
+  }
+
+
 .note {
   background: #f8f8f8;
   border: 1px solid #ddd;
