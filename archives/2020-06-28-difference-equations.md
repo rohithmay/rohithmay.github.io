@@ -32,7 +32,9 @@ Difference equations are those where variables are expressed as a fuction of tim
 
 Consider the day-to-day changes in the price of a stock. It is posited that the changes should have a mean value of 0. Effiecient speculation in the market drives up the stock price and no one would hold the stock if the price depreciates (rational investor). If $$ y_t$$ is the log of price of a share of this stock, then
 
-$$y_{t+1} = y_t + \epsilon_t \\ \Delta y_{t+1} = \epsilon_t $$
+$$y_{t+1} = y_t + \epsilon_t$$
+
+$$ \Delta y_{t+1} = \epsilon_t $$
 
 where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0.
 
