@@ -70,7 +70,7 @@ $$ i_t = \beta(\alpha y_{t-1} + \epsilon_{ct} -c_{t-1})+ \epsilon_{it}$$
 
 $$ i_t = \alpha\beta y_{t-1} - \beta c_{t-1} + \beta\epsilon_{ct} + \epsilon_{it}$$
 
-which is now in reduced form. Reduced form solution is not unique and can incorporate lag terms too. Hence $$ c_{t-1} = \alpha y_{t-2} + \epsilon_{ct-1} $$ is also in reduced form.  Pluggin this into 
+which is now in reduced form. Reduced form solution is not unique and can incorporate lag terms too. Hence $$ c_{t-1} = \alpha y_{t-2} + \epsilon_{ct-1} $$ is also in reduced form.  Plugging this into 
 
 $$ i_t = \alpha\beta y_{t-1} - \beta c_{t-1} + \beta\epsilon_{ct} + \epsilon_{it}$$
 
