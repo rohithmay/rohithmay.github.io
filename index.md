@@ -196,7 +196,8 @@ Template for latest updates here
         <i class="fa fa-copyright" aria-hidden="true"></i> 2020 Rohith Krishna,
 
             <i class="fa fa-code" aria-hidden="true"></i>
-            on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
+            on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.<br/>
+            Made with <i class="fa fa-heart" aria-hidden="true"></i> in Madras.
 
 
 
