@@ -200,11 +200,7 @@ Template for latest updates here
         </div>
     </div>
 
-    <div class="col d-flex justify-content-center">
-        <div class="inner">
-            Made with <i class="fa fa-heart" aria-hidden="true"></i> in Madras.
-        </div>
-    </div>
+  
 
 
 
