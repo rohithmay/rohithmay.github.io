@@ -24,6 +24,19 @@ The objective of time-series econometrics is to find the equation of motion driv
 - Cyclical: $$ S_t = 1.6 \sin \frac{t\pi}{6} $$, and, 
 - Irregular: $$ I_t = 0.7 I_{t-1} + \epsilon_t$$.
 
+### Difference Equations
+
+Difference equations are those where variables are expressed as a fuction of time, its own lagged values and other variables.  The trend and cyclical components depend on time, while the irregular component depends on lagged values and the stochastic disturbance term $$ \epsilon_t$$. As stated earlier objective is to estimate these difference equations containing stochastic components. In this accord, four difference equation models are presented here that finds application in macroeconomics and finance. 
+
+## Random Walk Hypothesis
+
+Consider the day-to-day changes in the price of a stock. It is posited that the changes should have a mean value of 0. Effiecient speculation in the market drives up the stock price and no one would hold the stock if the price depreciates (rational investor). If $$ y_t$$ is the log of price of a share of this stock, then,
+$$
+y_{t+1} = y_t + \epsilon_t \\
+\Delta y_{t+1} = \epsilon_t
+$$
+ where, $$ \epsilon_{t+1} $$ is the random disturbance and has an expected value of 0. 
+
 
 
 
