@@ -17,8 +17,8 @@
 }
 
 [data-theme="dark"] .card {
-  /*background-color: #000000 !important;*/
-  background-color: #181818 !important;
+  background-color: #000000 !important;
+  /* background-color: #181818 !important; */
   color: #eee;
 }
 
