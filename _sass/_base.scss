@@ -56,7 +56,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: 'Latin Modern', Georgia, Times, serif;
+    font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 500;
