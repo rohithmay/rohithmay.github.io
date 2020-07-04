@@ -143,7 +143,9 @@ Template for latest updates here
 
                         I'm a student of data science and am currently carrying coursework in the areas of machine learning, finance, linear algebra etc.  Prior to this, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling. <br/><br/>
 
-                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings.
+                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/>
+
+                        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div> <br>/
 
                         Quick links to my project pages:<br/><br/>
 
