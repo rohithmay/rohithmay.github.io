@@ -225,10 +225,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
 color: black !important;
+&:hover {
+  color: lighten($brand-color, 25%);
+}
 }
 
 .navbar-brand{
 color: black !important;
+  &:hover {
+    color: lighten($brand-color, 25%);
+  }
 }
 
 
