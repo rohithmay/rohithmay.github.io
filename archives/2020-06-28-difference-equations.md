@@ -3,7 +3,7 @@ title: Difference Equations in Time-series Econometrics
 author: Rohith Krishna
 date: 28 June 2020
 layout: post
-permalink: /2020-06-28-difference-equations
+permalink: /2020-06-28-difference-equations-sample
 ---
 
 The statistical modeling of macroeconomics involves varaibles with time-series data. Time series econometrics is concerned with the estimation of difference equations that contain stochastic components. The dynamic economic models use stochastic difference equations in order to forecast variables.
@@ -58,7 +58,7 @@ where the equations above measure Real GDP, Consumption and Investment expenditu
 
 ### Structural Equation
 
-A *structural equation* is one which expresses an endogeneous variable as dependent on current realization of another endogeneous variable. The equation $$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}$$  is therefore structural. Investment spending is proportional to change in consumption and consumption growth necessitates new investment spending. 
+A *structural equation* is one which expresses an endogeneous variable as dependent on current realization of another endogeneous variable. The equation $$ i_t = \beta(c_t -c_{t-1})+ \epsilon_{it}$$  is therefore structural. Investment spending is proportional to change in consumption and consumption growth necessitates new investment spending.
 
 ### Reduced Form Equation
 
