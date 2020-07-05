@@ -25,7 +25,7 @@ title: Rohith Krishna
                         <!-- good blue #1E88E5 -->
                         <!-- even better blue #1976D2-->
 
-                          <h2> <span style="color: #483D8B"> Hi. I'm Rohith</span>,
+                          <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
                               a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
