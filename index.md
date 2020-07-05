@@ -5,6 +5,7 @@ title: Rohith Krishna
 
 <div class="container-fluid">
 
+<br/> <br/>
           <div class="row">
 
                   <div class="col col-3 ml-auto d-flex align-items-center">
@@ -22,8 +23,8 @@ title: Rohith Krishna
                         <br/>
 
 
-                          <h1> <span style="color:#B0BEC5"> Hi. I'm Rohith. </span></h1>
-                          <h3> Student of data science and physics.</h3>
+                          <h1> <span style="color:#7E57C2"> Hi. I'm Rohith. </span></h1>
+                          <h3> I'm a student of data science and physics.</h3>
 
                             <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
@@ -134,8 +135,13 @@ Template for latest updates here
             <!-- Enter contents here -->
                         <div style="text-align:justify;">
 
+                        I'm currently in the second year of my PGDM in Research and Business Analytics at
+                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. Prior to this, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling. A CV here. Check out the [projects](/projects)
 
-                        I'm a student of data science and am currently carrying coursework in the areas of machine learning, finance, linear algebra etc.  Prior to this, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling. <br/><br/>
+
+
+
+                        I'm a student of data science and am currently carrying coursework in the areas of machine learning, finance, linear algebra etc.   <br/><br/>
 
                         This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/> <br/>
 
@@ -147,18 +153,18 @@ Template for latest updates here
 
 
 
-                        Quick links to my project pages:<br/><br/>
+                        <!-- Quick links to my project pages:<br/><br/> -->
 
-<!--
-                I am a student of data science currently in my second year of PGDM, carrying out coursework in fields such as machine learning, finance and economics. Prior to this, I pursued a Masters course in physics with skills in computational physics and mathematical modeling.   <br/>  <br/>
+                          <!--
+                                          I am a student of data science currently in my second year of PGDM, carrying out coursework in fields such as machine learning, finance and economics. Prior to this, I pursued a Masters course in physics with skills in computational physics and mathematical modeling.   <br/>  <br/>
 
-                This webpage is a repository of my projects and academic notes, predominantly in the fields of machine learning, macroeconomics, corporate finance, linear algebra and quantum computing. This page also doubles as my blog where I post occasional musings on life as it ebbs and flows. -->
+                                          This webpage is a repository of my projects and academic notes, predominantly in the fields of machine learning, macroeconomics, corporate finance, linear algebra and quantum computing. This page also doubles as my blog where I post occasional musings on life as it ebbs and flows. -->
 
-                <a href="/rbi2020">
-                <button type="button" class="btn btn-secondary"> <strong> Exchange Rate Volatility </strong></button> </a>
+                                                  <!-- <a href="/rbi2020">
+                                                  <button type="button" class="btn btn-secondary"> <strong> Exchange Rate Volatility </strong></button> </a> -->
 
-                <!-- <a href="https://rohithmay.github.io/macroeconomics-20">
-                <button type="button" class="btn"> <strong> Macroeconomics </strong> </button> </a>  -->
+                                                  <!-- <a href="https://rohithmay.github.io/macroeconomics-20">
+                                                  <button type="button" class="btn"> <strong> Macroeconomics </strong> </button> </a>  -->
 
                         </div>
 
