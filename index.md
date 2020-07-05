@@ -18,13 +18,14 @@ title: Rohith Krishna
                   <div class="col col-1">
                         </div>
 
-                  <div class="col col-6 mr-auto d-flex align-items-left">
+                  <div class="col col-7 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
 
+                        <!-- good blue #1E88E5 -->
 
-                          <h1> <span style="color:#1E88E5"> Hi. I'm Rohith </span>,
-                              a student of data science and physics.</h1>
+                          <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
+                              a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
