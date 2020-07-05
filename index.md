@@ -12,9 +12,8 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
-                           class="rounded-circle"
-                           border-radius=30%
-                           width="150" />
+                           class="rounded"
+                           width="130" />
                   </div>
                   <div class="col col-1">
                         </div>
@@ -26,7 +25,7 @@ title: Rohith Krishna
                         <!-- good blue #1E88E5 -->
 
                           <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
-                              a student of data science and physics..</h2>
+                              a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
