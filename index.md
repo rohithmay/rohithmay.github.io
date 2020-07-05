@@ -12,7 +12,7 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
-                           class="rounded"
+                           class="rounded-circle"
                            width="150" />
                   </div>
                   <div class="col col-1">
