@@ -43,7 +43,7 @@ title: Rohith Krishna
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Email">
-                                    <i class="fa fa-envelope-o fa-2x"></i>
+                                    <i class="fa fa-envelope-square fa-2x"></i>
                                 </a>
 
                                 <a
@@ -137,7 +137,7 @@ Template for latest updates here
                         <div style="text-align:justify;">
 
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
-                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in areas such as machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
+                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
 <!--
 
