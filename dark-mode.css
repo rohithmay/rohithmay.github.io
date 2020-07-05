@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   /* background-color: #000000 !important; */
-  background-color: #121212 !important;
+  background-color: #030303 !important;
   color: #eee;
 }
 
@@ -18,7 +18,7 @@
 
 [data-theme="dark"] .card {
   /* background-color: #000000 !important; */
-  background-color: #121212 !important;
+  background-color: #030303 !important;
   color: #eee;
 }
 
@@ -27,7 +27,7 @@
 [data-theme="dark"] a {
   /* color: #5DADE2; /*blue*/
   /* color: #F1948A; /*light red */
-   color: #90CAF9;    /* light blue
+   color: #1E88E5;    /* light blue
     /* color: #F1C40F;    /*yellow */
 
     /* color: #E74C3C;   /* brick red*/
