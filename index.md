@@ -136,7 +136,7 @@ Template for latest updates here
                         <div style="text-align:justify;">
 
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
-                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. Previously, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling.
+                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in fields of machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
 <!--
 
