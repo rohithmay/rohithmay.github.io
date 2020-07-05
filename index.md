@@ -8,7 +8,7 @@ title: Rohith Krishna
 <br/>
           <div class="row">
 
-                  <div class="col col-4 ml-auto d-flex align-items-center">
+                  <div class="col col-3 ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
@@ -18,7 +18,7 @@ title: Rohith Krishna
                   <div class="col col-1">
                         </div>
 
-                  <div class="col col-7 mr-auto d-flex align-items-left">
+                  <div class="col col-6 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
 
