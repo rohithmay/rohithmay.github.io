@@ -169,10 +169,13 @@ Template for latest updates here
                                                   <button type="button" class="btn"> <strong> Macroeconomics </strong> </button> </a>  -->
 
                         </div>
+                        <br/>
+
+<!--
+
+                <hr  style="height:2px;border-width:0;color:gray;background-color:gray" /> -->
 
 
-                <br/>
-                <hr  style="height:2px;border-width:0;color:gray;background-color:gray" />
                 <!-- thick horizontal line above -->
                 <!-- For a thin line use the code below -->
                 <!-- <hr class="col-12"/> -->
@@ -185,7 +188,7 @@ Template for latest updates here
 
         <div class="row">
               <div class="col ml-md-auto mr-md-auto">
-                  <h6>News</h6>
+                  <h6>Updates</h6>
                   <div>
                       <ul>
                           {% for update in site.data.updates %}
