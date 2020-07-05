@@ -15,7 +15,7 @@
         <ul class="navbar-nav mr-auto">
             {% for link in site.data.navbar %}
                 <li class="nav-item {% if page.url == link.url %}active{% endif %}">
-                    <a class="nav-link" href="{{ link.url }}" {% if link.external %}target="_blank"{% endif %}><strong>{{ link.title }}</strong></a>
+                    <a class="nav-link" href="{{ link.url }}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
                 </li>
             {% endfor %}
         </ul>
