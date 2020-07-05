@@ -5,7 +5,7 @@ title: Rohith Krishna
 
 <div class="container-fluid">
 
-<br/> <br/>
+<br/>
           <div class="row">
 
                   <div class="col col-3 ml-auto d-flex align-items-center">
@@ -23,7 +23,7 @@ title: Rohith Krishna
                         <br/>
 
 
-                          <h1> <span style="color:#7E57C2"> Hi. I'm Rohith. </span></h1>
+                          <h1> <span style="color:#1565C0"> Hi. I'm Rohith. </span></h1>
                           <h3> I'm a student of data science and physics.</h3>
 
                             <!-- Graduate Student <br/>
@@ -136,14 +136,14 @@ Template for latest updates here
                         <div style="text-align:justify;">
 
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
-                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. Prior to this, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling. A CV here. Check out the [projects](/projects)
+                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. Previously, I pursued a Masters course in physics and am skilled in computational physics and mathematical modeling.
 
-
+<!--
 
 
                         I'm a student of data science and am currently carrying coursework in the areas of machine learning, finance, linear algebra etc.   <br/><br/>
 
-                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/> <br/>
+                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/> <br/> -->
 
                         <!--  For colored boxes
 
