@@ -24,11 +24,17 @@
 
 [data-theme="dark"] .nav-link {
 color: white !important;
+  &:hover {
+      color: darken($brand-color, 25%);
+      }
 }
 
 
 [data-theme="dark"] .navbar-brand{
 color: white !important;
+&:hover {
+    color: darken($brand-color, 25%);
+    }
 }
 
 
