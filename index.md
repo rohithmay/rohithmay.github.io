@@ -13,12 +13,12 @@ title: Rohith Krishna
                            id="gravatar-img"
                            src="images/pro-pic.jpg"
                            class="rounded"
-                           width="170" />
+                           width="150" />
                   </div>
                   <div class="col col-1">
                         </div>
 
-                  <div class="col col-7 mr-auto d-flex align-items-left">
+                  <div class="col col-6 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
 
