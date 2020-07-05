@@ -43,7 +43,7 @@ title: Rohith Krishna
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Email">
-                                    <i class="fa fa-envelope fa-2x"></i>
+                                    <i class="fa fa-envelope-o fa-2x"></i>
                                 </a>
 
                                 <a
