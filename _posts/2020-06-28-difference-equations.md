@@ -1,5 +1,5 @@
 ---
-title: Difference Equations in Time-series Econometrics
+title: Difference equations in time-series econometrics
 author: Rohith Krishna
 date: 28 June 2020
 layout: post
