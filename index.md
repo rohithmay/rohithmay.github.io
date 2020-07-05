@@ -20,26 +20,19 @@ title: Rohith Krishna
                   <div class="col col-5 mr-auto d-flex align-items-left">
                         <div align="left">
                         <br/>
-                        <h2> Rohith Krishna </h2>
 
-                            <!-- Graduate Student <br/> -->
+
+                          <h2> <span style="color:#27AE60"> Hey, I'm Rohith. </span></h2>
+
+                            <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
                             Madras School of Economics <br/>
                             Email: <a data-toggle="tooltip"
                                      data-placement="right"
-                                     title="Write to me here :)">rohithslog@gmail.com</a><br/>
+                                     title="Write to me here :)">rohithslog@gmail.com</a><br/> -->
+
 
                             <nav class="nav">
-                                <!-- <a
-                                class="nav-link col-2"
-                                href="https://scholar.google.com/citations?user=SdGXagwAAAAJ&hl=en"
-                                target="_blank"
-                                data-toggle="tooltip"
-                                data-placement="bottom"
-                                title="Google Scholar">
-                                    <i class="ai ai-google-scholar ai-2x"></i>
-                                </a> -->
-
                               <a
                                 class="nav-link col-2"
                                 href="mailto:rohithslog@gmail.com"
@@ -147,99 +140,8 @@ Template for latest updates here
 
                         <div class="p-3 mb-2 text-black rounded" style = "background-color: #ECEFF1;">
 
-                        
-                        <div class="row">
+                        <h1>  Hey! </h1>
 
-                                <div class="col col-3 ml-auto d-flex align-items-center">
-                                    <img style="margin: 0px 0 0px 0;"
-                                         id="gravatar-img"
-                                         src="images/pro-pic.jpg"
-                                         class="rounded"
-                                         width="170" />
-                                </div>
-                                <div class="col col-1">
-                                      </div>
-
-                                <div class="col col-5 mr-auto d-flex align-items-left">
-                                      <div align="left">
-                                      <br/>
-                                      <h2> Rohith Krishna </h2>
-
-                                          <!-- Graduate Student <br/> -->
-                                          PGDM in Business Analytics <br/>
-                                          Madras School of Economics <br/>
-                                          Email: <a data-toggle="tooltip"
-                                                   data-placement="right"
-                                                   title="Write to me here :)">rohithslog@gmail.com</a><br/>
-
-                                          <nav class="nav">
-                                              <!-- <a
-                                              class="nav-link col-2"
-                                              href="https://scholar.google.com/citations?user=SdGXagwAAAAJ&hl=en"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="Google Scholar">
-                                                  <i class="ai ai-google-scholar ai-2x"></i>
-                                              </a> -->
-
-                                            <a
-                                              class="nav-link col-2"
-                                              href="mailto:rohithslog@gmail.com"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="Email">
-                                                  <i class="fa fa-envelope-square fa-2x"></i>
-                                              </a>
-
-                                              <a
-                                              class="nav-link col-2"
-                                              href="https://github.com/rohithmay"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="Github">
-                                                  <i class="fa fa-github fa-2x"></i>
-                                              </a>
-
-                                              <a
-                                              class="nav-link col-2"
-                                              href="https://www.linkedin.com/in/rohithkris96"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="LinkedIn">
-                                                  <i class="fa fa-linkedin-square fa-2x"></i>
-                                              </a>
-
-
-                                              <a
-                                              class="nav-link col-2"
-                                              href="https://instagram.com/rohithmay"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="Instagram">
-                                                  <i class="fa fa-instagram fa-2x"></i>
-                                              </a>
-
-
-                                              <!-- <a
-                                              class="nav-link col-2"
-                                              href="https://rohithmay.wordpress.com/"
-                                              target="_blank"
-                                              data-toggle="tooltip"
-                                              data-placement="bottom"
-                                              title="Wordpress">
-                                                  <i class="fa fa-wordpress fa-2x"></i>
-                                              </a> -->
-
-
-                                              </nav>
-                                          </div>
-                                      </div>
-                            </div>
 
                         </div> <br>/
 
