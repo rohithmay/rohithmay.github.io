@@ -23,8 +23,8 @@ title: Rohith Krishna
                         <br/>
 
 
-                          <h1> <span style="color:#1565C0"> Hi. I'm Rohith. </span></h1>
-                          <h3> I'm a student of data science and physics.</h3>
+                          <h2> <span style="color:#1E88E5"> Hi. I'm Rohith, </span>
+                              a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
