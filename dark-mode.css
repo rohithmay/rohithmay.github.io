@@ -22,6 +22,9 @@
   color: #eee;
 }
 
+[data-theme="dark"] .nav-link {
+color: white !important;
+}
 
 
 [data-theme="dark"] a {
