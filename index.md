@@ -14,8 +14,8 @@ title: Rohith Krishna
                            class="rounded"
                            width="170" />
                   </div>
-                  <!-- <div class="col col-1">
-                        </div> -->
+                  <div class="col col-1">
+                        </div>
 
                   <div class="col col-6 mr-auto d-flex align-items-left">
                         <div align="left">
@@ -139,12 +139,11 @@ Template for latest updates here
 
                         This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/> <br/>
 
+                        <!--  For colored boxes
+
                         <div class="p-3 mb-2 text-black rounded" style = "background-color: #ECEFF1;">
-
                         <h1>  Hey! </h1>
-
-
-                        </div> <br>/
+                        </div> </br> -->
 
 
 
