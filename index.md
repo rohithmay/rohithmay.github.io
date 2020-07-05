@@ -23,8 +23,9 @@ title: Rohith Krishna
                         <br/>
 
                         <!-- good blue #1E88E5 -->
+                        <!-- even better blue #1976D2-->
 
-                          <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
+                          <h2> <span style="color: #483D8B"> Hi. I'm Rohith</span>,
                               a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
@@ -137,7 +138,7 @@ Template for latest updates here
                         <div style="text-align:justify;">
 
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
-                        <a href=" https://www.mse.ac.in/">  Madras School of Economics, </a>  carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
+                      Madras School of Economics, carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
 <!--
 
