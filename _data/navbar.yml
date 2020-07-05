@@ -2,19 +2,18 @@
 #  url: /
 #  external: false
 
-# - title: About
-#   url: /about/
-#   external: false
+- title: About
+  url: /about/
+  external: false
 
 # - title: Notes
 #   url: /notes
 #   external: false
 
 
-- title: Archives
-  url: /archives
-  external: false
-
+# - title: Archives
+#   url: /archives
+#   external: false
 
 - title: Projects
   url: /projects
