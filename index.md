@@ -146,7 +146,9 @@ Template for latest updates here
                     <a href="/projects">
                     <button type="button" class="btn btn-secondary"> <strong> Projects </strong></button> </a>
                     <a href="/blog">
-                    <button type="button" class="btn btn-secondary"> <strong> Blog </strong></button> </a> 
+                    <button type="button" class="btn btn-secondary"> <strong> Blog </strong></button> </a>
+                    <a href="/resume/rohith-krishna-cv.pdf">
+                    <button type="button" class="btn btn-secondary"> <strong> My CV </strong></button> </a> 
 
 <!--
 
