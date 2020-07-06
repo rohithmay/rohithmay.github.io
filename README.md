@@ -1,4 +1,3 @@
-rohithmay.github.io
+rohithkrishna.in
 ======================
-
-Home page of Rohith Krishna
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
