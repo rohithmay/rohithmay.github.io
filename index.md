@@ -140,15 +140,16 @@ Template for latest updates here
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
                       Madras School of Economics, carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
+                      <br/> <br/>
 
 
-                    Quick links:
+                    <em>Quick links:</em> <br/>
                     <a href="/projects">
                     <button type="button" class="btn btn-secondary"> <strong> Projects </strong></button> </a>
                     <a href="/blog">
                     <button type="button" class="btn btn-secondary"> <strong> Blog </strong></button> </a>
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-secondary"> <strong> My CV </strong></button> </a> 
+                    <button type="button" class="btn btn-secondary"> <strong> My CV </strong></button> </a>
 
 <!--
 
