@@ -143,7 +143,7 @@ Template for latest updates here
                       <br/> <br/>
 
 
-                    <em>Quick links:</em> <br/>
+                    <!-- <em>Quick links:</em> <br/> -->
                     <a href="/projects">
                     <button type="button" class="btn btn-secondary"> <strong> Projects </strong></button> </a>
                     <a href="/blog">
