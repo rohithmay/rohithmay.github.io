@@ -37,6 +37,10 @@ color: white !important;
     }
 }
 
+[data-theme="dark"] .navbar-collapse{
+  color: white !important;
+}
+
 
 
 [data-theme="dark"] a {
