@@ -41,7 +41,7 @@ color: white !important;
   color: white !important;
 }
 
-[data-theme="dark"]  .btn-primary{
+[data-theme="dark"] .btn-primary{
     background-color: $button-color-dark;
     border-color: $button-color-dark;
     color: white !important;
