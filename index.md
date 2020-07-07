@@ -144,12 +144,16 @@ Template for latest updates here
 
 
                     <!-- <br/> -->
-                    <a href="/projects">
-                    <button type="button" class="btn btn-primary" style="background-color: #8064A2;"> <strong> 👨🏻‍💻 Projects </strong></button> </a>
-                    <a href="/blog">
-                    <button type="button" class="btn btn-primary"> <strong>🌺 Blog </strong></button> </a>
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-primary"> <strong>📃 My CV </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #AED6F1; border-color: #AED6F1;"> <strong>📃 My CV </strong></button> </a>
+
+                    <a href="/projects">
+                  <button type="button" class="btn btn-primary" style="background-color: #AED6F1; border-color: #AED6F1;"> <strong>👨🏻‍💻 Projects </strong></button> </a>
+                    <a href="/blog">
+                    <button type="button" class="btn btn-primary" style="background-color: #AED6F1; border-color: #AED6F1;"> <strong>🌺 Blog </strong></button> </a>
+
+                    <a href="/rbi2020">
+                    <button type="button" class="btn btn-primary" style="background-color: #AED6F1; border-color: #AED6F1;"> <strong>🏦 Exchange Rate </strong></button> </a>
 
 <!--
 
