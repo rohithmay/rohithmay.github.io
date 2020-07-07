@@ -142,20 +142,9 @@ Template for latest updates here
 
                       <br/> <br/>
 
-                      <a href="/resume/rohith-krishna-cv.pdf">
-                      <button type="button" class="btn btn-primary"> <strong>📃 My CV </strong></button> </a>
-
-                      <a href="/projects">
-                    <button type="button" class="btn btn-primary"> <strong>👨🏻‍💻 Projects </strong></button> </a>
-                      <a href="/blog">
-                      <button type="button" class="btn btn-primary" > <strong>🌺 Blog </strong></button> </a>
-
-                      <a href="/rbi2020">
-                      <button type="button" class="btn btn-primary"> <strong>🏦 Exchange Rate </strong></button> </a>
-
 
                     <!-- <br/> -->
-                    <!-- <a href="/resume/rohith-krishna-cv.pdf">
+                    <a href="/resume/rohith-krishna-cv.pdf">
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
@@ -164,7 +153,7 @@ Template for latest updates here
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>🌺 Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>🏦 Exchange Rate </strong></button> </a>
 
 <!--
 
