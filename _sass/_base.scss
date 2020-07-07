@@ -38,6 +38,43 @@
     url('/fonts/LM-bold-italic.ttf') format('truetype');
 }
 
+// Computer Modern Sans font added on July 8th, 2020
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/cmunss.woff') format('woff'),
+    url('/fonts/cmunss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/cmunsi.woff') format('woff'),
+    url('/fonts/cmunsi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src:  url('/fonts/cmunsx.woff') format('woff'),
+    url('/fonts/cmunsx.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/cmunso.woff') format('woff'),
+    url('/fonts/cmunso.ttf') format('truetype');
+}
+
 
 /**
  * Reset some basic elements
