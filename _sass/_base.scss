@@ -120,6 +120,13 @@ tr, td{
     margin: 0 !important;
   }
 
+// custom colors for primary buttons
+
+.btn-primary{
+    background-color: $button-color-light;
+    border-color: $button-color-light;
+    color: black;
+}
 
 .note {
   background: #f8f8f8;
