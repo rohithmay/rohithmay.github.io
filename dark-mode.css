@@ -42,8 +42,8 @@ color: white !important;
 }
 
 [data-theme="dark"] .btn-primary{
-    background-color: $button-color-dark;
-    border-color: $button-color-dark;
+    background-color: green;
+    border-color: green;
     color: white !important;
 }
 
