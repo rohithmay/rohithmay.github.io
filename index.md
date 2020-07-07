@@ -143,13 +143,13 @@ Template for latest updates here
                       <br/> <br/>
 
 
-                    <!-- <em>Quick links:</em> <br/> -->
+                    <!-- <br/> -->
                     <a href="/projects">
-                    <button type="button" class="btn btn-outline-dark"> <strong> Projects </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #8064A2;"> <strong> 👨🏻‍💻 Projects </strong></button> </a>
                     <a href="/blog">
-                    <button type="button" class="btn btn-outline-dark"> <strong> Blog </strong></button> </a>
+                    <button type="button" class="btn btn-primary"> <strong>🌺 Blog </strong></button> </a>
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-outline-dark"> <strong> My CV </strong></button> </a>
+                    <button type="button" class="btn btn-primary"> <strong>📃 My CV </strong></button> </a>
 
 <!--
 
