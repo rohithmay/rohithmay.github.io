@@ -144,6 +144,8 @@ Template for latest updates here
 
 
                     <!-- <br/> -->
+                    <!-- good moderate blue here #1976D2 use this for buttons -->
+                    <!--  #D6EAF8 is light blue -->
                     <a href="/resume/rohith-krishna-cv.pdf">
                     <button type="button" class="btn btn-primary" style="background-color: #D6EAF8; border-color: #D6EAF8; color:black;"> <strong>📃 My CV </strong></button> </a>
 
