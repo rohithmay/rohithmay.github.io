@@ -145,7 +145,7 @@ Template for latest updates here
 
                     <!-- <br/> -->
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>📃 My CV </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #D6EAF8; border-color: #D6EAF8; color:black;"> <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
                   <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2;"> <strong>👨🏻‍💻 Projects </strong></button> </a>
