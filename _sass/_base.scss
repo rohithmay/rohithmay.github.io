@@ -147,6 +147,11 @@ strong {
   background-color: #F5F5F5 !important;
 }
 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
 // For making tables in markdown with borders
 td, th {
     border: 1px solid grey
