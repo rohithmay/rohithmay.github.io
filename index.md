@@ -153,7 +153,7 @@ Template for latest updates here
                   <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>👨🏻‍💻 Projects </strong></button> </a>
 
                     <a href="/blog">
-                    <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🌺 Blog </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a>
