@@ -12,7 +12,7 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/violet-bio-pic.jpg"
-                           class="rounded"
+                           class="rounded-circle"
                            width="130" />
                   </div>
                   <div class="col col-1">
@@ -25,7 +25,7 @@ title: Rohith Krishna
                         <!-- good blue #1E88E5 -->
                         <!-- even better blue #1976D2-->
 
-                          <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
+                          <h2> <span style="color: #6A5ACD"> Hi. I'm Rohith</span>,
                               a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
