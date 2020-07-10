@@ -146,17 +146,20 @@ Template for latest updates here
                     <!-- <br/> -->
                     <!-- good moderate blue here #1976D2 use this for buttons -->
                     <!--  #D6EAF8 is light blue -->
+                    <!-- #1976D2 is the custom blue used in the page -->
+                    <!-- #BBDEFB is almost teal. Satisfactory in a white backgorund. Too creamy? -->
+
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-primary btn-sm" > <strong>📃 My CV </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
-                  <button type="button" class="btn btn-primary btn-sm" > <strong>👨🏻‍💻 Projects </strong></button> </a>
+                  <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>👨🏻‍💻 Projects </strong></button> </a>
 
                     <a href="/blog">
-                    <button type="button" class="btn btn-primary btn-sm" > <strong>🖋️ Blog </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary btn-sm" > <strong>🏦 Exchange Rate </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate </strong></button> </a>
 
 
                     <!-- <a href="/rbi2020">
