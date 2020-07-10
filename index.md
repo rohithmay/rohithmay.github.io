@@ -147,16 +147,16 @@ Template for latest updates here
                     <!-- good moderate blue here #1976D2 use this for buttons -->
                     <!--  #D6EAF8 is light blue -->
                     <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-outline-primary btn-sm" > <strong>📃 My CV </strong></button> </a>
+                    <button type="button" class="btn btn-primary btn-sm" > <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
-                  <button type="button" class="btn btn-outline-primary btn-sm" > <strong>👨🏻‍💻 Projects </strong></button> </a>
+                  <button type="button" class="btn btn-primary btn-sm" > <strong>👨🏻‍💻 Projects </strong></button> </a>
 
                     <a href="/blog">
-                    <button type="button" class="btn btn-outline-primary btn-sm" > <strong>🖋️ Blog </strong></button> </a>
+                    <button type="button" class="btn btn-primary btn-sm" > <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-outline-primary btn-sm" > <strong>🏦 Exchange Rate </strong></button> </a>
+                    <button type="button" class="btn btn-primary btn-sm" > <strong>🏦 Exchange Rate </strong></button> </a>
 
 
                     <!-- <a href="/rbi2020">
