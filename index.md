@@ -12,7 +12,8 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/vio2-pro-pic.jpg"
-                           class="thumbnail"
+                           class="rounded"
+                           radius= "40px"
                            width="140" />
                   </div>
                   <div class="col col-1">
@@ -159,7 +160,7 @@ Template for latest updates here
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate </strong></button> </a>
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate Volatility</strong></button> </a>
 
 
                     <!-- <a href="/rbi2020">
