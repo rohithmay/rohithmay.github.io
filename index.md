@@ -158,6 +158,10 @@ Template for latest updates here
                     <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" > <strong>🏦 Exchange Rate </strong></button> </a>
 
+
+                    <!-- <a href="/rbi2020">
+                    <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
+
 <!--
 
 
