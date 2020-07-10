@@ -12,8 +12,8 @@ title: Rohith Krishna
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
                            src="images/vio2-pro-pic.jpg"
-                           class="rounded"
-                           width="170" />
+                           class="thumbnail"
+                           width="140" />
                   </div>
                   <div class="col col-1">
                         </div>
