@@ -1,5 +1,5 @@
 ---
-title: Difference equations in time-series econometrics
+title: 📑 Difference equations in time-series econometrics - an introductory post
 author: Rohith Krishna
 date: 28 June 2020
 layout: post
