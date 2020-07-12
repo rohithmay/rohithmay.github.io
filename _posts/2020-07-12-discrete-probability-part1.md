@@ -21,7 +21,7 @@ We can see that the macrostate $$P_7 = 1/6$$ is contributed by the microstates $
 
 
 $$
-P_s = \begin{cases} abbb \\b \end{cases}
+P_s = \begin{cases} \frac{1}{36}(s-1), \ \ \ 2 \leq s \leq 7 \\ \frac{1}{36}(13-s), \ \ \ 8 \leq s \leq 12 \end{cases}
 $$
 
 
