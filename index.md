@@ -161,13 +161,15 @@ Template for latest updates here
                     <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate Volatility</strong></button> </a>
 
+                    <br/><br/><br/>
 
-                    <div class="col col-4">
+
+                    <div class="col col-8">
                     <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large.  </em> <br/>
                     <div style="text-align:right;">
                     - Joscha Bach
                     </div>
-                    </div>
+                    </div> <br/>
 
 
                     <!-- <a href="/rbi2020">
