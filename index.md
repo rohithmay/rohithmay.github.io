@@ -167,7 +167,7 @@ Template for latest updates here
                     <div class="col col-12 d-flex justify-content-center">
 
                     <!-- <a href="#" class="btn btn-light active" role="button" aria-pressed="true"> -->
-                      <button type="button" class="btn btn-light active" style="background-color: #808B96; border-color: #808B96; color:white;" aria-pressed="true"  >
+                      <button type="button" class="btn btn-light active" aria-pressed="true"  >
                       <div class="col col-12" style="text-align:justify;">
                     <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach  </em>  </div>
                     <!-- </a> -->
