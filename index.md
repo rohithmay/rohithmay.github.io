@@ -149,7 +149,7 @@ Template for latest updates here
                     <!-- #1976D2 is the custom blue used in the page -->
                     <!-- #BBDEFB is almost teal. Satisfactory in a white backgorund. Too creamy? -->
 
-                    <!-- <a href="/resume/rohith-krishna-cv.pdf">
+                    <a href="/resume/rohith-krishna-cv.pdf">
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
@@ -159,9 +159,9 @@ Template for latest updates here
                     <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate Volatility</strong></button> </a> -->
+                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate Volatility</strong></button> </a>
 
-                    <a href="/resume/rohith-krishna-cv.pdf">
+                    <!-- <a href="/resume/rohith-krishna-cv.pdf">
                     <button type="button" class="btn btn-light active" > <strong>📃 My CV </strong></button> </a>
 
                     <a href="/projects">
@@ -171,7 +171,7 @@ Template for latest updates here
                     <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>🖋️ Blog </strong></button> </a>
 
                     <a href="/rbi2020">
-                    <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>🏦 Exchange Rate Volatility</strong></button> </a>
+                    <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>🏦 Exchange Rate Volatility</strong></button> </a> -->
 
                     <br/><br/><br/>
 
