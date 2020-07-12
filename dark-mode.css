@@ -41,6 +41,12 @@ color: white !important;
   color: white !important;
 }
 
+[data-theme="dark"] .btn-light{
+    background-color: #34495E;
+    border-color: #34495E;
+    color: white !important;
+}
+
 /* [data-theme="dark"] .btn-primary{
     background-color: #1976D2;
     border-color: #1976D2;
