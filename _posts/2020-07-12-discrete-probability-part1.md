@@ -25,3 +25,4 @@ P_s = \begin{cases} \frac{1}{36}(s-1), \ \ \ 2 \leq s \leq 7 \\ \frac{1}{36}(13-
 $$
 
 
+ 
