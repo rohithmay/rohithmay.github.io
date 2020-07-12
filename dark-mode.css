@@ -41,11 +41,11 @@ color: white !important;
   color: white !important;
 }
 
-[data-theme="dark"] .btn-light, .active{
+/* [data-theme="dark"] .btn-light{
     background-color: #34495E;
     border-color: #34495E;
     color: white !important;
-}
+} */
 
 
 
