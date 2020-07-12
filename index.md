@@ -164,11 +164,11 @@ Template for latest updates here
                     <br/><br/><br/>
 
 
-                    <div class="col col-10 d-flex justify-content-center">
-                    <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large.  </em> <br/>
-                    <div style="text-align:right;">
-                    - Joscha Bach
-                    </div>
+                    <div class="col col-12 d-flex justify-content-center">
+                    <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large.           - Joscha Bach  </em> <br/>
+
+
+
                     </div> <br/>
 
 
