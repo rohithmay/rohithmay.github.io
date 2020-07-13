@@ -9129,15 +9129,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12519,7 +12519,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13033,14 +13033,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -13079,7 +13079,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Modeling-Exchange-Rate-data-using-ARIMA">Modeling Exchange-Rate data using ARIMA<a class="anchor-link" href="#Modeling-Exchange-Rate-data-using-ARIMA">&#182;</a></h1><p><strong>Rohith Krishna</strong><br>
 <strong>July 14, 2020</strong></p>
-<p><a href="www.rohithkrishna.in/rbi2020">Back to project page</a></p>
+<p><a href="/">Back to project page</a></p>
 
 </div>
 </div>
@@ -13102,7 +13102,7 @@ div#notebook {
 <span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">kurtosis</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">skew</span>
-<span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span> 
+<span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span>
 
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">timedelta</span>
@@ -13227,7 +13227,7 @@ div#notebook {
 <span class="n">df_daily</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df_daily</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
 
 <span class="c1"># set date as index</span>
-<span class="n">df_daily</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> 
+<span class="n">df_daily</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">start_date</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="s1">&#39;2016-01-01&#39;</span><span class="p">)</span>
 <span class="n">df_daily</span> <span class="o">=</span> <span class="n">df_daily</span><span class="p">[</span><span class="n">start_date</span><span class="p">:]</span>
 <span class="n">df_daily</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13273,8 +13273,8 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Exchange Rates 
--------------------- 
+<pre>Exchange Rates
+--------------------
 count    1643.000000
 mean       68.481222
 std         3.265543
@@ -13517,7 +13517,7 @@ skewness  0.5334319860507775
 <div class="text_cell_render border-box-sizing rendered_html">
 <blockquote><p>In R, we use the following code to obtain autocorrelations:</p>
 <div class="highlight"><pre><span></span><span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">))</span>
-<span class="nf">acf</span><span class="p">(</span><span class="n">df_daily</span><span class="o">$</span><span class="n">inrVal</span><span class="p">)</span>  
+<span class="nf">acf</span><span class="p">(</span><span class="n">df_daily</span><span class="o">$</span><span class="n">inrVal</span><span class="p">)</span>
 <span class="nf">pacf</span><span class="p">(</span><span class="n">df_daily</span><span class="o">$</span><span class="n">inrVal</span><span class="p">)</span>
 </pre></div>
 <p><img src="./r-acf-pacf.png" alt="image"></p>
@@ -13592,7 +13592,7 @@ $H_1$: The time series is stationary.</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Results of Dickey-Fuller Test: 
+<pre>Results of Dickey-Fuller Test:
 
 Test Statistic                   -0.427478
 p-value                           0.905409
@@ -13746,7 +13746,7 @@ $$ r_t =  \ln\left(\frac{y_t}{y_{t-1}}\right) $$<p>Here, $y_t$ is the exchange r
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Results of Dickey-Fuller Test: 
+<pre>Results of Dickey-Fuller Test:
 
 Test Statistic                  -40.987766
 p-value                           0.000000
@@ -13906,8 +13906,8 @@ From the PACF, we should start with an AR(10) model.</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Exchange Rate Log Returns  
-------------------------- 
+<pre>Exchange Rate Log Returns
+-------------------------
 count    1643.000000
 mean        0.000081
 std         0.002906
@@ -13988,7 +13988,7 @@ $H_1$: The time series a unit root (series is not stationary).</p>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># KPSS on exchange rate value</span>
-<span class="k">def</span> <span class="nf">kpss_test</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>    
+<span class="k">def</span> <span class="nf">kpss_test</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
     <span class="n">statistic</span><span class="p">,</span> <span class="n">p_value</span><span class="p">,</span> <span class="n">n_lags</span><span class="p">,</span> <span class="n">critical_values</span> <span class="o">=</span> <span class="n">kpss</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
     <span class="c1"># Format Output</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;KPSS Statistic: </span><span class="si">{</span><span class="n">statistic</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -13998,7 +13998,7 @@ $H_1$: The time series a unit root (series is not stationary).</p>
     <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">critical_values</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;   </span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s1"> : </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Result: The series is </span><span class="si">{</span><span class="s2">&quot;not &quot;</span> <span class="k">if</span> <span class="n">p_value</span> <span class="o">&lt;</span> <span class="mf">0.05</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="si">}</span><span class="s1">stationary&#39;</span><span class="p">)</span>
-    
+
 <span class="n">kpss_test</span><span class="p">(</span><span class="n">df_daily</span><span class="o">.</span><span class="n">inrVal</span><span class="p">)</span>
 </pre></div>
 
@@ -14051,7 +14051,7 @@ Result: The series is not stationary
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># KPSS on log returns</span>
-<span class="k">def</span> <span class="nf">kpss_test</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>    
+<span class="k">def</span> <span class="nf">kpss_test</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
     <span class="n">statistic</span><span class="p">,</span> <span class="n">p_value</span><span class="p">,</span> <span class="n">n_lags</span><span class="p">,</span> <span class="n">critical_values</span> <span class="o">=</span> <span class="n">kpss</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
     <span class="c1"># Format Output</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;KPSS Statistic: </span><span class="si">{</span><span class="n">statistic</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -14062,7 +14062,7 @@ Result: The series is not stationary
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;   </span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s1"> : </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Result: The series is </span><span class="si">{</span><span class="s2">&quot;not &quot;</span> <span class="k">if</span> <span class="n">p_value</span> <span class="o">&lt;</span> <span class="mf">0.05</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="si">}</span><span class="s1">stationary&#39;</span><span class="p">)</span>
 
-    
+
 <span class="n">kpss_test</span><span class="p">(</span><span class="n">df_daily</span><span class="o">.</span><span class="n">returns</span><span class="p">)</span>
 </pre></div>
 
@@ -14271,7 +14271,7 @@ Name: returns, dtype: float64</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>                              ARMA Model Results                              
+<pre>                              ARMA Model Results
 ==============================================================================
 Dep. Variable:                returns   No. Observations:                 1462
 Model:                    ARMA(10, 1)   Log Likelihood                6515.023
@@ -14279,7 +14279,7 @@ Method:                       css-mle   S.D. of innovations              0.003
 Date:                Tue, 14 Jul 2020   AIC                         -13004.046
 Time:                        03:52:26   BIC                         -12935.308
 Sample:                    01-01-2016   HQIC                        -12978.405
-                         - 01-01-2020                                         
+                         - 01-01-2020
 ==================================================================================
                      coef    std err          z      P&gt;|z|      [0.025      0.975]
 ----------------------------------------------------------------------------------
@@ -14295,7 +14295,7 @@ ar.L8.returns      0.0255      0.028      0.914      0.361      -0.029       0.0
 ar.L9.returns      0.0003      0.028      0.009      0.993      -0.055       0.055
 ar.L10.returns    -0.0660      0.026     -2.525      0.012      -0.117      -0.015
 ma.L1.returns     -0.1349      0.303     -0.445      0.656      -0.730       0.460
-                                    Roots                                     
+                                    Roots
 ==============================================================================
                    Real          Imaginary           Modulus         Frequency
 ------------------------------------------------------------------------------
@@ -14566,7 +14566,7 @@ Total fit time: 1.785 seconds
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>                              ARMA Model Results                              
+<pre>                              ARMA Model Results
 ==============================================================================
 Dep. Variable:                returns   No. Observations:                 1462
 Model:                     ARMA(1, 1)   Log Likelihood                6507.015
@@ -14574,14 +14574,14 @@ Method:                       css-mle   S.D. of innovations              0.003
 Date:                Tue, 14 Jul 2020   AIC                         -13006.029
 Time:                        04:29:27   BIC                         -12984.879
 Sample:                    01-01-2016   HQIC                        -12998.140
-                         - 01-01-2020                                         
+                         - 01-01-2020
 =================================================================================
                     coef    std err          z      P&gt;|z|      [0.025      0.975]
 ---------------------------------------------------------------------------------
 const          5.198e-05   7.47e-05      0.695      0.487   -9.45e-05       0.000
 ar.L1.returns    -0.4657      0.595     -0.782      0.434      -1.633       0.701
 ma.L1.returns     0.4834      0.588      0.822      0.411      -0.669       1.636
-                                    Roots                                    
+                                    Roots
 =============================================================================
                   Real          Imaginary           Modulus         Frequency
 -----------------------------------------------------------------------------
@@ -14825,30 +14825,18 @@ $H_1$: The residuals are correlated.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="www.rohithkrishna.in/rbi2020">Back to Project Page</a>.<br>
-<a href="www.rohithkrishna.in">Back to Home Page</a>.</p>
+<p><a href="/">Back to Project Page</a>.<br>
+<a href="/">Back to Home Page</a>.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
 
-    </div>
-</div>
-</div>
-
-</div>
     </div>
   </div>
 </body>
 
- 
+
 
 
 </html>
