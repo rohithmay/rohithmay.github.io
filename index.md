@@ -4,7 +4,6 @@ title: Rohith Krishna
 ---
 
 <div class="container-fluid">
-
 <br/>
           <div class="row">
 
