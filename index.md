@@ -94,8 +94,6 @@ title: Rohith Krishna
                         </div>
               </div>
 
-
-
 <!--
 Template for latest updates here
   <div class="row">
@@ -265,12 +263,5 @@ Template for latest updates here
             on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.<br/>
         </div>
     </div>
-
-
-
-
-
-
-
 
 </div>
