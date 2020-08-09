@@ -17,7 +17,7 @@ The Brookings India paper reviewed is titled: *Indian Monetary Policy in the tim
 ## Watershed moments in Indian economy
 
 - *Credit Planning* till mid 1980s. Credit was channelled at cheap administered rated for growth. Inflation due to structural shocks such as drought, flood, oil price changes.
-- *Monetary targeting first adopted* in mid 1980s. Monetary targeting was adopted for growth in nominal GDP after accounting for tolerable inflation. RBI introduced money market instruments, and deregulated interest rates in existing money market instruments. Cash Reserve Ratio (CRR) was the prime monetary policy tool, owing to poor money-market and predominance of RBI credit to the central government.
+- *Monetary targeting first adopted* in mid 1980s. Monetary targeting was adopted for growth in nominal GDP after accounting for tolerable inflation. RBI introduced money market instruments, and deregulated interest rates in existing money market instruments. Cash Reserve Ratio (CRR) was the prime monetary policy tool, owing to poor money-market and predominance of RBI cerdit to the central government.
 - Monetary policy became *operationally independent* in April 1997 when automatic monetisation by ad hoc treasury bill creation was done away with.
 - *Multiple indicators approach* adopted by RBI in April 1998, where apart from broad money, other macroeconomic variables such as interest rates, rates of return in different markets (money, capital, govt. securities etc.), currency, credit data, fiscal position, trade, capital flows, inflation rate, exchange rate etc, are used along with output data for policy formulation.
 - *Liquidity Adjustment Facility (LAF)* set up in 2000 enabling RBI to use repo and reverse repo rates as key policy signalling rates.

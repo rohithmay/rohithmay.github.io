@@ -4,13 +4,14 @@ title: Rohith Krishna
 ---
 
 <div class="container-fluid">
+
 <br/>
           <div class="row">
 
                   <div class="col col-3 ml-auto d-flex align-items-center">
                       <img style="margin: 0px 0 0px 0;"
                            id="gravatar-img"
-                           src="images/vio2-pro-pic.jpg"
+                           src="images/pro-pic.jpg"
                            class="rounded"
                            width="130" />
                   </div>
@@ -94,6 +95,8 @@ title: Rohith Krishna
                         </div>
               </div>
 
+
+
 <!--
 Template for latest updates here
   <div class="row">
@@ -136,69 +139,6 @@ Template for latest updates here
 
                         I'm currently in the second year of my PGDM in Research and Business Analytics at
                       Madras School of Economics, carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
-
-                      <br/> <br/>
-
-
-                    <!-- <br/> -->
-                    <!-- good moderate blue here #1976D2 use this for buttons -->
-                    <!--  #D6EAF8 is light blue -->
-                    <!-- #1976D2 is the custom blue used in the page -->
-                    <!-- #BBDEFB is almost teal. Satisfactory in a white backgorund. Too creamy? -->
-
-                    <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>📃 My CV </strong></button> </a>
-
-                    <a href="/projects">
-                  <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>👨🏻‍💻 Projects </strong></button> </a>
-
-                    <a href="/blog">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🖋️ Blog </strong></button> </a>
-
-                    <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #1976D2; border-color: #1976D2; color:white;" > <strong>🏦 Exchange Rate Volatility</strong></button> </a>
-
-                    <!-- <a href="/resume/rohith-krishna-cv.pdf">
-                    <button type="button" class="btn btn-light active" > <strong>📃 My CV </strong></button> </a>
-
-                    <a href="/projects">
-                  <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>👨🏻‍💻 Projects </strong></button> </a>
-
-                    <a href="/blog">
-                    <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>🖋️ Blog </strong></button> </a>
-
-                    <a href="/rbi2020">
-                    <button type="button" class="btn btn-light active" aria-pressed="true" > <strong>🏦 Exchange Rate Volatility</strong></button> </a> -->
-
-                    <br/><br/><br/>
-
-
-                    <div class="col col-12 d-flex justify-content-center">
-
-                    <!-- <a href="#" class="btn btn-light active" role="button" aria-pressed="true"> -->
-                      <button type="button" class="btn btn-light active" aria-pressed="true"  >
-                      <div class="col col-12" style="text-align:justify;">
-                    <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach. </em>  </div>
-                    <!-- </a> -->
-                    </button>
-                    <br/>
-
-
-
-                    </div> <br/>
-
-
-                    <!-- <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
-                    
-                    <style>
-  .katex-version {display: none;}
-  .katex-version::after {content:"0.10.2 or earlier";}
-</style>
-<span class="katex">
-  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
-  <span class="katex-version rule">KaTeX stylesheet version: </span>
-</span>
 
 <!--
 
@@ -272,5 +212,12 @@ Template for latest updates here
             on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.<br/>
         </div>
     </div>
+
+
+
+
+
+
+
 
 </div>

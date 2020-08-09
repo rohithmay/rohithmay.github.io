@@ -18,8 +18,6 @@ kramdown:
    math_engine: mathjax
 highlighter: rouge
 
-plugins:
-  - jekyll-katex
 # permalink: pretty
 # permalink: none
 

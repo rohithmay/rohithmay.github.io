@@ -38,43 +38,6 @@
     url('/fonts/LM-bold-italic.ttf') format('truetype');
 }
 
-// Computer Modern Sans font added on July 8th, 2020
-@font-face {
-  font-family: 'CMU Sans';
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: url('/fonts/cmunss.woff') format('woff'),
-    url('/fonts/cmunss.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'CMU Sans';
-  font-style: italic;
-  font-weight: normal;
-  font-display: swap;
-  src: url('/fonts/cmunsi.woff') format('woff'),
-    url('/fonts/cmunsi.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'CMU Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-display: swap;
-  src:  url('/fonts/cmunsx.woff') format('woff'),
-    url('/fonts/cmunsx.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'CMU Sans';
-  font-style: italic;
-  font-weight: bold;
-  font-display: swap;
-  src: url('/fonts/cmunso.woff') format('woff'),
-    url('/fonts/cmunso.ttf') format('truetype');
-}
-
 
 /**
  * Reset some basic elements
@@ -147,15 +110,6 @@ strong {
   background-color: #F5F5F5 !important;
 }
 
-.card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
-}
-
-.coolfont{
-  font-family: CMU Sans;
-}
-
 // For making tables in markdown with borders
 td, th {
     border: 1px solid grey
@@ -166,13 +120,6 @@ tr, td{
     margin: 0 !important;
   }
 
-// custom colors for primary buttons
-
-// .btn-primary{
-//     background-color: $button-color-light;
-//     border-color: $button-color-light;
-//     color: black;
-// }
 
 .note {
   background: #f8f8f8;
@@ -288,10 +235,6 @@ color: black !important;
   &:hover {
     color: lighten($brand-color, 25%);
   }
-}
-
-.navbar-collapse{
-  color: black !important;
 }
 
 

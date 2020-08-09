@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   /* background-color: #000000 !important; */
-  background-color: #09060A !important;
+  background-color: #131313 !important;
   color: #eee;
 }
 
@@ -18,7 +18,7 @@
 
 [data-theme="dark"] .card {
   /* background-color: #000000 !important; */
-  background-color: #09060A !important;
+  background-color: #131313 !important;
   color: #eee;
 }
 
@@ -36,16 +36,6 @@ color: white !important;
     color: darken($brand-color, 25%);
     }
 }
-
-[data-theme="dark"] .navbar-collapse{
-  color: white !important;
-}
-
-/* [data-theme="dark"] .btn-light{
-    background-color: #34495E;
-    border-color: #34495E;
-    color: white !important;
-} */
 
 
 
