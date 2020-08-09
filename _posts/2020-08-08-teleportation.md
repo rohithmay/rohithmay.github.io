@@ -5,7 +5,7 @@ date: 8 August 2020
 layout: post
 permalink: /2020-08-08-teleportation
 tags: [quantum teleportation, quantum computing, qiskit, physics]
-
+katex: true
 ---
 
 # Introduction

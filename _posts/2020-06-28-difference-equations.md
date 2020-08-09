@@ -5,6 +5,7 @@ date: 28 June 2020
 layout: post
 permalink: /2020-06-28-difference-equations
 tags: [difference equations, math, econometrics, stochastic processes]
+katex: true
 ---
 
 The statistical modeling of macroeconomics involves variables with time-series data. Time series econometrics is concerned with the estimation of difference equations that contain stochastic components. The dynamic economic models use stochastic difference equations in order to forecast variables.
