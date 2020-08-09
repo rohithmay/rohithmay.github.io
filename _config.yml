@@ -13,10 +13,10 @@ timezone: UTC
 lsi: true
 
 # Build settings
-markdown: kramdown
-kramdown:
-   math_engine: mathjax
-highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#    math_engine: mathjax
+# highlighter: rouge
 
 plugins:
   - jekyll-katex
