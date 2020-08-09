@@ -22,7 +22,8 @@ The catch, however, is that once we measure the superposition state, it collapse
 
 The conventional Dirac notation employed by physicists is used here to represent state vectors in the Hilbert space. Let $$a,b \in \mathbb{C^2}$$.  We define the following:
 
--  a ket vector: $$ \ket{a} = b$$
+-  a ket vector: $$ \ket{a} = a^2$$
+- 
 
 
 
