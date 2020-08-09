@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+    <body>
+
+
+      <!-- Use this to shade the background and identify
+    the margins easily -->
+    <!-- <div class="container-fluid" style="background-color:#CDCDCD; max-width:700px" > -->
+
+        <div class="container-fluid" style="max-width:750px" >
+
+            {% include navbar.html %}
+
+            <br/>
+
+            {{ content }}
+
+            {% include footer.html %}
+
+        </div>
+
+
+    </body>
+
+</html>

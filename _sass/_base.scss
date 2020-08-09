@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/LM-regular.woff2') format('woff2'),
+    url('/fonts/LM-regular.woff') format('woff'),
+    url('/fonts/LM-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/LM-italic.woff2') format('woff2'),
+    url('/fonts/LM-italic.woff') format('woff'),
+    url('/fonts/LM-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/LM-bold.woff2') format('woff2'),
+    url('/fonts/LM-bold.woff') format('woff'),
+    url('/fonts/LM-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/LM-bold-italic.woff2') format('woff2'),
+    url('/fonts/LM-bold-italic.woff') format('woff'),
+    url('/fonts/LM-bold-italic.ttf') format('truetype');
+}
+
+// Computer Modern Sans font added on July 8th, 2020
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/cmunss.woff') format('woff'),
+    url('/fonts/cmunss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/fonts/cmunsi.woff') format('woff'),
+    url('/fonts/cmunsi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src:  url('/fonts/cmunsx.woff') format('woff'),
+    url('/fonts/cmunsx.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CMU Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/cmunso.woff') format('woff'),
+    url('/fonts/cmunso.ttf') format('truetype');
+}
+
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    // font-weight: 400;   // for Helvetica
+    font-weight: 500;   // for Latin Modern
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+// Extra content starts here
+// *************************************************************
+h1{
+  font-size: $base-font-size * 1.7;
+
+}
+
+h2{
+  font-size: $base-font-size * 1.3;
+
+}
+
+h3{
+  font-size: $base-font-size * 1.1;
+
+}
+
+h4{
+  font-size: $base-font-size * 1.1;
+
+}
+
+h5{
+  font-size: $base-font-size * 1.1;
+
+}
+
+h6{
+  font-size: $base-font-size * 1.1;
+
+}
+
+// Extra content ends here
+// *************************************************************
+
+strong {
+  font-weight: 900;
+}
+
+.card {
+  background-color: #F5F5F5 !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.coolfont{
+  font-family: CMU Sans;
+}
+
+// For making tables in markdown with borders
+td, th {
+    border: 1px solid grey
+  }
+
+tr, td{
+    padding: 2px !important;
+    margin: 0 !important;
+  }
+
+// custom colors for primary buttons
+
+// .btn-primary{
+//     background-color: $button-color-light;
+//     border-color: $button-color-light;
+//     color: black;
+// }
+
+.note {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba( 0, 0, 0, 0.2 );
+  padding: 20px 20px 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transition-property: transform;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+  -webkit-transition-property: transform;
+  -webkit-transition-duration: 0.6s;
+  -webkit-transition-timing-function: ease;
+  transform: translateY( calc( 100% + 8px ) );
+  -webkit-transform: translateY( calc( 100% + 8px ) );
+  font-size: 14px;
+  line-height: 1.7em;
+  &.shown {
+    transform: translateY( 0 );
+    -webkit-transform: translateY( 0 );
+  }
+  @media (min-width: 768px) {
+    right: 40px;
+    padding-bottom: 20px;
+    max-width: 400px;
+    left: auto;
+    bottom: 40px;
+    transition-property: opacity, transform;
+    -webkit-transition-property: opacity, transform;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    opacity: 0;
+    transform: scale( 0.1 ) translateZ( 0 );
+    -webkit-transform: scale( 0.1 ) translateZ( 0 );
+    &.shown {
+      transform: scale( 1 ) translateZ( 0 );
+      -webkit-transform: scale( 1 ) translateZ( 0 );
+      opacity: 1;
+    }
+  }
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+.nav-link {
+color: black !important;
+&:hover {
+  color: lighten($brand-color, 25%);
+}
+}
+
+.navbar-brand{
+color: black !important;
+  &:hover {
+    color: lighten($brand-color, 25%);
+  }
+}
+
+.navbar-collapse{
+  color: black !important;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    // color: #2196F3;
+    text-decoration: none;
+    font-weight: normal;
+
+    &:visited {
+        color: darken($brand-color, 25%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
