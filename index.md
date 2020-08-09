@@ -94,8 +94,6 @@ title: Rohith Krishna
                         </div>
               </div>
 
-
-
 <!--
 Template for latest updates here
   <div class="row">
@@ -192,6 +190,15 @@ Template for latest updates here
 
                     <!-- <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
+                    
+                    <style>
+  .katex-version {display: none;}
+  .katex-version::after {content:"0.10.2 or earlier";}
+</style>
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
 
 <!--
 
@@ -265,12 +272,5 @@ Template for latest updates here
             on <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.<br/>
         </div>
     </div>
-
-
-
-
-
-
-
 
 </div>
