@@ -25,7 +25,7 @@ title: Rohith Krishna
                         <!-- even better blue #1976D2-->
 
                           <h2> <span style="color: #1976D2"> Hi. I'm Rohith</span>,
-                              a student of data science and physics</h2>
+                              a student of data science and physics.</h2>
 
                             <!-- Graduate Student <br/>
                             PGDM in Business Analytics <br/>
@@ -190,7 +190,8 @@ Template for latest updates here
 
                     <!-- <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
-                    
+
+<!--    To check if katex is installed. It isn't 2020-08-10. Moved to Mathjax.                 
                     <style>
   .katex-version {display: none;}
   .katex-version::after {content:"0.10.2 or earlier";}
@@ -198,7 +199,7 @@ Template for latest updates here
 <span class="katex">
   <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
   <span class="katex-version rule">KaTeX stylesheet version: </span>
-</span>
+</span> -->
 
 <!--
 
