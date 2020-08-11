@@ -8,8 +8,6 @@ tags: [quantum teleportation, quantum computing, qiskit, physics]
 katex: true
 ---
 
-[WIP]
-
 # Introduction
 
 In this article, I shall be summarising my learning of mulipartite states such as Bell States and the implementation of teleportation protocol on a quantum computer using IBM's Qiskit. The manner of presentation is as was taught by Elisa Baumer and Abe Asfaw at the Qiskit Global Summer School 2020. 
@@ -22,16 +20,8 @@ The catch, however, is that once we measure the superposition state, it collapse
 
 ## Linear Algebra in Dirac Notation
 
-The conventional Dirac notation employed by physicists is used here to represent state vectors in the Hilbert space. Let $$a,b \in \mathbb{C^2}$$.  We define the following:
+The conventional Dirac notation employed by physicists is used here to represent state vectors in the Hilbert space. Let $$a,b \in \mathbb{C^2}$$.  We define the following: 
 
-$$ \bra{a} = \ket{b} $$
-There
+-   a ket vector: $$\ket{a} = \begin{pmatrix} a_1\\a_2 \end{pmatrix}$$
 
-
-
-
-
-
-
-
-
+-   a bra vector: a bra vector: $$\bra{b} = \ket{b}^{\dagger} = \begin{pmatrix} b_1\\b_2 \end{pmatrix}^{\dagger}$$
