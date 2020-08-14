@@ -85,7 +85,7 @@ In astronomy one uses either [equatorial](https://astronomy.swin.edu.au/cosmos/E
 
 $$ RA_{decimal} = 15 \times(hours+\frac{mins}{60} +\frac{sec}{3600})$$
 
-$$ Dec_{decimal} = \begin{cases}(hours+\frac{mins}{60} +\frac{sec}{3600}),& \text{for angle>0} \\ (-1)*(hours+\frac{mins}{60} +\frac{sec}{3600}),& \text{for angles<0} \end{cases}$$
+$$ Dec_{decimal} = \begin{cases}(hours+\frac{mins}{60} +\frac{sec}{3600}),& \text{for angle>0} \\ (-1)*(hours+\frac{mins}{60} +\frac{sec}{3600}),& \text{for angle<0} \end{cases}$$
 
 In our algorithm, we make use of coordinates RA and Dec in the respective formats. Hence we define the following functions.
 
@@ -245,16 +245,14 @@ This would a good point to digress to the real world, and see what all this mean
 
 ## References
 
-<div align = "left">
+[^1]:[Active galactic nuclei. Fabian. 1999.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33567/)
+[^2]: [Shedding New Light on the 3C 273 Jet with the *Spitzer Space Telescope*, Astrophysical J. Sept 2006.](https://news.yale.edu/2006/06/20/evidence-ultra-energetic-particles-jet-black-hole)
+[^3]: [Point Spread Functions. Astr 511/O'Connell Lec 13. ](http://spider.ipac.caltech.edu/staff/fmasci/home/astro_refs/PSFtheory.pdf)
+[^4]: [Point Spread Function. Notes here.]( https://shodhganga.inflibnet.ac.in/bitstream/10603/160649/6/06_chapter_2.pdf)
+[^5]: [Haversine Formula for measuring distances on the Great Circle.](https://www.math.ksu.edu/~dbski/writings/haversine.pdf)
+[^6]: [Lectures on data-driven astronomy by Tara Murphy.](https://taramurphy.github.io)
 
-[^1]:Active galactic nuclei. Fabian. 1999. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33567/
-[^2]: Shedding New Light on the 3C 273 Jet with the *Spitzer Space Telescope*, Astrophysical J. Sept 2006. https://news.yale.edu/2006/06/20/evidence-ultra-energetic-particles-jet-black-hole 
-[^3]: Point Spread Functions. Astr 511/O'Connell Lec 13.  http://spider.ipac.caltech.edu/staff/fmasci/home/astro_refs/PSFtheory.pdf
-[^4]: Point Spread Function. https://shodhganga.inflibnet.ac.in/bitstream/10603/160649/6/06_chapter_2.pdf
-[^5]: Haversine Formula for measuring distances on the Great Circle. https://www.math.ksu.edu/~dbski/writings/haversine.pdf
-[^6]: Lectures on data-driven astronomy by Tara Murphy. https://taramurphy.github.io
 
-</div>
 
 
 
