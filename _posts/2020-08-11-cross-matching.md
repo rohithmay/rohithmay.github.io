@@ -243,9 +243,9 @@ This would a good point to digress to the real world, and see what all this mean
 
 *The cross-matching algorithm will return in part 2.*
 
-<div align = "left">
-
 ## References
+
+<div align = "left">
 
 [^1]:Active galactic nuclei. Fabian. 1999. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33567/
 [^2]: Shedding New Light on the 3C 273 Jet with the *Spitzer Space Telescope*, Astrophysical J. Sept 2006. https://news.yale.edu/2006/06/20/evidence-ultra-energetic-particles-jet-black-hole 
