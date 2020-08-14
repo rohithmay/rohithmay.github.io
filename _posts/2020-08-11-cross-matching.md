@@ -1,6 +1,6 @@
 ---
 
-title: 🌌 Catalogues of galaxies - a naive cross-matching algorithm
+title: 🌌 A naive cross-matching algorithm on galaxy catalogues
 author: Rohith Krishna
 date: 11 August 2020
 layout: post
@@ -8,11 +8,13 @@ permalink: /2020-08-11-cross-matching
 tags: [astronomy, algorithms, cross-matching, business-analysis]
 ---
 
-![2020-08-11-cross-matching](/images/2020-08-11-cross-matching.jpg)
+![2020-08-11-cross-matching](/images/2020-08-11-cross-matching-04.jpg)
 
 In this article, I present a naive cross-matching algorithm. An astronomer is interested in cross-matching objects discovered in different surveys. With billions of galaxies and the enormous data that it comes with, it is necessary to have an efficient algorithm that does this without blowing up in exponential time. Here, some fundamentals of astronomy is laid out first, followed by the implementation of the naive cross-matcher. In the real world too, business analysts in retail and ecommerce industries require cross-matching products in their shopping catalogues to provide consumers a display of their products without repetition of identical products. 
 
 This is part 1 of a series of articles on this topic of cross-matching. The naive cross-matcher here is an algorithm that is extremely slow and teaches us exactly what not to do. Seriously, do not implement this in comparing your catalogues. 
+
+
 
 ## Supermassive black holes and active galactic nuclei (AGN)
 
@@ -27,6 +29,8 @@ The active galactic nuclei (AGN) are steady sources of enormous amounts of elect
 These jets are also associated with large magnetic fields and fast moving electrons spiralling around these jets produce strong and enormous radio emissions. The different sizes and structures in the radio jets can give us information about the different  epochs in the accretion activity.
 
 In 2006, a study by astronomers at Yale, found infrared emissions that throw light into the nature of quasar jets that emanate out of AGNs. This study particularly involves the jet of quasar 3C273, first discovered in 2006. They had reportedly developed a false-color image of quasar jet 3C273 based on the infrared data they observed, and to this they cross-matched with other emissions from radio waves to X-rays. These emissions were spread over more than hundreds of thousands of light years. [^2]
+
+
 
 ## The need for cross-matching in astronomy
 
@@ -45,6 +49,8 @@ The  image above is Hercules A - a radio galaxy located 2100 million light years
 
 Although positional cross-matching is a seemingly simple process, key insights in data science can be drawn by thinking in terms of  *time complexity* and *scaling of algorithms.* 
 
+
+
 ## Positional cross-matching on images of galaxies
 
 In this section positional cross-matching between catalogues is introduced. [Source Extractor](http://sextractor.sourceforge.net) is a popular package used for performing this. The images to be cross-matched are first collected. In astronomy, the images are matrices with RGB or grayscale values for each pixel. The cross-matching exercise works as follows:
@@ -60,6 +66,8 @@ In this section positional cross-matching between catalogues is introduced. [Sou
 2. The component of statistical significance arises here, for there are uncertainties associated with the values measured from the images. This is because of noise in the image, telescope calibration or because of characterization of the telescope's PSF.
 
 Before we go ahead with the cross-matching exercise, it is important to know the position variables that are relevant to us, and to define the angular distance, which is the measure of closeness between astronomical objects. 
+
+
 
 ## Coordinate system in astronomy
 
@@ -95,6 +103,8 @@ def dms2dec(hours,arcmin,arcsec):
     return "Enter valid coordinates"
 ```
 
+
+
 ## Measuring angular distances
 
 **Angular distance** is defined as the projected angle between objects on the celestial sphere, as seen from Earth. We make use of the haversine formula here,[^5] however, other measures of distances of points on the Great Circle might also be used. 
@@ -112,6 +122,8 @@ def angular_dist(r1, d1, r2, d2):
   d = 2*np.arcsin(np.sqrt(a + b))
   return d
 ```
+
+
 
 ## Loading the datasets
 
@@ -162,6 +174,8 @@ def import_super():
 # Note: loadtxt works only so long as there aren't any NA's
 ```
 
+
+
 ## A naive cross-matching algorithm
 
 Now that, we've imported the relevant position variables from the two catalogues, we can implement a naive algorithm to cross-match. It is naive because, the following program, as we'll see later simply wouldn't scale.
@@ -207,15 +221,21 @@ if __name__ == '__main__':
   
 ```
 
+
+
 ## Results
 
 Under a 40 arcsecond maximum distance, we find that 151 objects in `bss_cat` matched with those in `super_cat` catalogue. When the permissible maximum distance was reduced to 5 arcseconds we find that there were 120 matches, leaving 40 unmatched. Further, we find that each cross-matching on 160x500 catalogues, takes about 1.5 seconds to compute.  This clearly indicates that the algorithm would not scale.
 
-## Insights into Time complexity
+
+
+## On time complexity
 
 In any analysis involving algorithms and computations, it is essential to deduce the time complexity of the algorithm in order to determine if it would perform the task in linear or constant time, or would blow up taking exponential time. In this context, we have say, $$n$$ galaxies in catalogue A and $$m$$ galaxies in catalogue B. The time complexity of our naive algorithm goes as $$O(mn)$$, which isn't a good worst-case time complexity. 
 
 In our case, with 160 objects in cat. A and 500 in cat B, it takes roughly 1.5 seconds to find all matches. If we were to use surveys with hundreds of millions of galaxies and implement this naive cross-matching, it would take days to compute!  Hence, we certainly cannot use this frustratingly slow algorithm for cross-matching and need faster solutions. We shall explore these in the next part of this article. 
+
+
 
 ## Insights in Business Analytics
 
