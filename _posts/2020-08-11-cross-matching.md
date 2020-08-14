@@ -241,7 +241,9 @@ In our case, with 160 objects in cat. A and 500 in cat B, it takes roughly 1.5 s
 
 This would a good point to digress to the real world, and see what all this means for a business analyst. We have in the previous sections essentially written an algorithm to match objects in two catalogue. Oh! Where can we find applications for this in the real world? Obviously, in the  retail and ecommerce industry which have millions of products to offer and millions to compare and ship. Consider an e-commerce giant wishes to procure products from a seller and list the seller's catalogue on their website. It has to compare the products on the seller's list with their original catalogue. If not, they'd be entering every single item sold by every single seller, resulting in buyers drowning in webpages of identical products offered by different sellers. Thus there is a need to efficiently cross-match objects in the catalogues, with real business consequences, that we shall discuss in a subsequent article.
 
-`The cross-matching algorithm will return in part 2.`
+*The cross-matching algorithm will return in part 2.*
+
+<div align = "left">
 
 ## References
 
@@ -251,6 +253,10 @@ This would a good point to digress to the real world, and see what all this mean
 [^4]: Point Spread Function. https://shodhganga.inflibnet.ac.in/bitstream/10603/160649/6/06_chapter_2.pdf
 [^5]: Haversine Formula for measuring distances on the Great Circle. https://www.math.ksu.edu/~dbski/writings/haversine.pdf
 [^6]: Lectures on data-driven astronomy by Tara Murphy. https://taramurphy.github.io
+
+</div>
+
+
 
 
 
