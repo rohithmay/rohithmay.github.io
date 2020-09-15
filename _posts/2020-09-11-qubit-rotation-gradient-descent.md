@@ -1,5 +1,5 @@
 ---
-title: 📟 Qubit rotation using gradient descent - 01 in Quantum Machine Learning Series.
+title: 📟 Qubit rotation using gradient descent. QML01
 author: Rohith Krishna
 date: 11 September 2020
 layout: post
@@ -41,5 +41,5 @@ CQ and QQ are used synonymously with *quantum machine learning*. In CQ, one uses
 
 ### Quantum Quantum (QQ)
 
-In physics and chemistry, one often wishes to simulate dynamics of a system that is inherently quantum mechanical in nature. When quantum computers are used in the generation/simulation of quantum mechanical system we refer to it as QQ. $ \ket{\psi}$
+In physics and chemistry, one often wishes to simulate dynamics of a system that is inherently quantum mechanical in nature. When quantum computers are used in the generation/simulation of quantum mechanical system we refer to it as QQ. $$\ket{\psi}$$  Abc.
 
