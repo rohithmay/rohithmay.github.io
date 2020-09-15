@@ -1,5 +1,5 @@
 ---
-title: Qubit rotation using gradient descent - 01 in Quantum Machine Learning Series.
+title: |> Qubit rotation using gradient descent - 01 in Quantum Machine Learning Series.
 author: Rohith Krishna
 date: 11 September 2020
 layout: post
