@@ -8,6 +8,10 @@ tags: [quantum machine learning, qiskit, pennylane.ai, gradient descent, python]
 typora-root-url: ../../rohithmay.github.io
 ---
 
+![2020-09-12-qubit-rotation-gradient-descent-img05](/images/2020-09-12-qubit-rotation-gradient-descent-img05.jpg)
+
+
+
 ## Where can one apply quantum machine learning algorithms?
 
 Some applications of quantum machine learning are enumerated:
@@ -90,11 +94,7 @@ The state of the system after rotations: $$\ket{\psi}$$ is measured along the $$
 
 $$ \bra{\psi} \sigma_z \ket{\psi} = \bra{0} \ R_x^\dagger(\theta_1)  \ R_y^\dagger(\theta_2)  \ \sigma_z  \ R_y(\theta_2) \  R_x(\theta_1) \ \ket{0} = \cos{\theta_1} \cos{\theta_2}$$
 
-Now that we have computed the expected value of this variational circuit to be $$ \bra{\psi} \sigma_z \ket{\psi} = \cos{\theta_1} \cos{\theta_2}$$, we can now think about choosing these parameters: $$\theta_1 $$ and $$\theta_2$$. Before moving forward to optimizing the model, we first construct the model using Pennylane. The packages are imported first and the circuit is constructed using the code:
-
-
-
-
+Now that we have computed the expected value of this variational circuit to be $$ \bra{\psi} \sigma_z \ket{\psi} = \cos{\theta_1} \cos{\theta_2}$$, we can now think about choosing these parameters: $$\theta_1 $$ and $$\theta_2$$. 
 
 ### Circuit Optimization
 
@@ -110,18 +110,11 @@ However, one wonders now about the analogue of this in the quantum setting. Let 
 
 From classical ML one is aware that gradient descent calculates the derivative of the cost function with respect to parameter at a particular point; then descends along the direction opposite to gradient vector, towards which the cost function becomes decreases and eventually reaches the minimum point. In our case consider a parameter vector $$\theta = [\theta_1, \theta_2]$$ and plot the cost as a function of $$\theta$$. The plot of cost wrt. $$\theta$$ is shown. Then, start with a particular initial value for the parameter, say,  $$\theta = \theta^i$$, and calculate the derivative of cost function at this point. Further, find the gradient direction and shift $$\theta$$ along the direction opposite to this direction. As one proceeds, we see that the $$\theta^i$$'s  converge to a value corresponding to the minimum of the cost function. 
 
-# Qubit rotation circuit optimization using gradient descent in Pennylane
+![2020-09-12-qubit-rotation-gradient-descent-img04](/images/2020-09-12-qubit-rotation-gradient-descent-img04.jpg)
 
+In the quantum ML setting, a method of performing gradient descent is discussed in Schuld (2020). The basic idea is that the parameter can be shifted by a small factor of $$s$$, above and below its initial value. The gradient then can be calculated from the difference in the measured outputs. 
 
-[Back to home page.](https://rohithkrishna.in/2020-09-11-qubit-rotation-gradient-descent)
-
-
-Resources:
-
-https://pennylane.ai/qml/demos/tutorial_qubit_rotation.html  
-https://nithep.ac.za/wp-content/uploads/2020/09/NITheP_minischool_l1-Amira-Abbas-slides.pdf  
-https://nithep.ac.za/wp-content/uploads/2020/09/NITheP_mini_school_L1.pdf  
-https://www.youtube.com/watch?v=iWrGVHwXPSI&ab_channel=NITheCSKZN  
+## Coding Gradient Descent on Qubit Rotation using Pennylane
 
 
 ### Importing packages
@@ -134,9 +127,9 @@ from pennylane import numpy as np
 
 Note. The numpy package is imported from pennylane and not directly.
 
-Definition. A quantum device is a computational object that can apply operations featured in quantum mechanics and can return values resulting from measurement. Pennylane uses the function .device()
+**Definition**. A quantum device is a computational object that can apply operations featured in quantum mechanics and can return values resulting from measurement. Pennylane uses the function .device()
 
-Definition. QNodes are an abstract encapsulation of a quantum function, described by a quantum circuit. QNodes are bound to a particular quantum device, which is used to evaluate expectation and variance values of this circuit. Pennylane uses QNode class or .qnode() decorator.
+**Definition**. QNodes are an abstract encapsulation of a quantum function, described by a quantum circuit. QNodes are bound to a particular quantum device, which is used to evaluate expectation and variance values of this circuit. Pennylane uses QNode class or .qnode() decorator.
 
 ### Initializing the quantum device
 
@@ -163,7 +156,7 @@ def circuit(params):
 
 ### Initialize the parameters
 
-The parameters $\theta_1$ and $\theta_2$ are initialized. We also check if we obtain $ \cos{\theta_1} \cos{\theta_2}$ on applying the circuit.
+The parameters $$\theta_1$$ and $$\theta_2$$ are initialized. We also check if we obtain $$\cos{\theta_1} \cos{\theta_2}$$ on applying the circuit.
 
 
 ```python
@@ -171,12 +164,9 @@ params = [1.570796327,1.570796327]
 circuit(params)
 ```
 
-
-
-
-    0.0
-
-
+>
+>     0.0
+>
 
 
 ```python
@@ -184,12 +174,9 @@ params = [0,0]
 circuit(params)
 ```
 
-
-
-
-    1.0
-
-
+>
+>     1.0
+>
 
 
 ```python
@@ -197,12 +184,9 @@ params = [0,0.5]
 circuit(params)
 ```
 
-
-
-
-    0.8775825618903726
-
-
+>
+>     0.8775825618903726
+>
 
 ### Calculate gradients 
 
@@ -211,17 +195,14 @@ Using the same quantum device `dev` one can calculate the gradients of the funct
 
 ```python
 dcircuit = qml.grad(circuit, argnum=0)
-```
-
-
-```python
 print(dcircuit([0,0]))
 ```
 
-    [0.0, 0.0]
+>    [0.0, 0.0]
+>
 
 
-The above shows that for $\theta_1 = \theta_2 = 0$ the derivative on value of the expected value of the circuit (which is the function $ \cos{\theta_1} \cos{\theta_2}$) is 0. This is inline with theory. 
+The above shows that for $$\theta_1 = \theta_2 = 0$$ the derivative on value of the expected value of the circuit (which is the function $$\cos{\theta_1} \cos{\theta_2}$$) is 0. This is inline with theory. 
 
 ### Defining cost function and initial parameters
 
@@ -234,12 +215,9 @@ init_params = np.array([0.11,0.5])
 cost(init_params)
 ```
 
-
-
-
-    0.8722785388513962
-
-
+>
+>     0.8722785388513962
+>
 
 ### Optimising the cost function using gradient descent
 
@@ -250,10 +228,6 @@ We use an instance of the function GradientDescentOptimizer to perform gradient 
 opt = qml.GradientDescentOptimizer(stepsize=0.4)  # initialise the optimizer
 steps = 100  # maximum the number of steps taken
 params = init_params # set the initial parameter values
-```
-
-
-```python
 # running the optimization
 for i in range(steps):
     params = opt.step(cost,params) # update parameter after every iteration.
@@ -263,28 +237,31 @@ for i in range(steps):
 print("Optimized rotation angles: {}".format(params))
 ```
 
-    Cost after step     5: -0.4151640
-    Cost after step    10: -0.9926820
-    Cost after step    15: -0.9999554
-    Cost after step    20: -0.9999997
-    Cost after step    25: -1.0000000
-    Cost after step    30: -1.0000000
-    Cost after step    35: -1.0000000
-    Cost after step    40: -1.0000000
-    Cost after step    45: -1.0000000
-    Cost after step    50: -1.0000000
-    Cost after step    55: -1.0000000
-    Cost after step    60: -1.0000000
-    Cost after step    65: -1.0000000
-    Cost after step    70: -1.0000000
-    Cost after step    75: -1.0000000
-    Cost after step    80: -1.0000000
-    Cost after step    85: -1.0000000
-    Cost after step    90: -1.0000000
-    Cost after step    95: -1.0000000
-    Cost after step   100: -1.0000000
-    Optimized rotation angles: [8.88540711e-17 3.14159265e+00]
+
+
+>     Cost after step     5: -0.4151640
+>     Cost after step    10: -0.9926820
+>     Cost after step    15: -0.9999554
+>     Cost after step    20: -0.9999997
+>     Cost after step    25: -1.0000000
+>     Cost after step    30: -1.0000000
+>     Cost after step    35: -1.0000000
+>     Cost after step    40: -1.0000000
+>     Cost after step    45: -1.0000000
+>     Cost after step    50: -1.0000000
+>     Cost after step    55: -1.0000000
+>     Cost after step    60: -1.0000000
+>     Cost after step    65: -1.0000000
+>     Cost after step    70: -1.0000000
+>     Cost after step    75: -1.0000000
+>     Cost after step    80: -1.0000000
+>     Cost after step    85: -1.0000000
+>     Cost after step    90: -1.0000000
+>     Cost after step    95: -1.0000000
+>     Cost after step   100: -1.0000000
+>     Optimized rotation angles: [8.88540711e-17 3.14159265e+00]
+>
 
 We see that in 10 iteration, the cost has been reduced to -0.99, which is rather quick.   
-We also see that the optimized rotation angles are $\theta_1 = 0$ and $\theta_2 = \pi$.  
-This makes sense because $ \cos{0} \cos{\pi} = -1$, which is the minimum value.
+We also see that the optimized rotation angles are $$\theta_1 = 0$$ and $$\theta_2 = \pi$$.  
+This makes sense because $$ \cos{0} \cos{\pi} = -1$$, which is the minimum value.
