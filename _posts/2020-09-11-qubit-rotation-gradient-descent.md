@@ -34,7 +34,21 @@ Researchers often cast quantum and classical computing methods into the followin
 
 ### Quantum Machine Learning Models
 
-We know from *(classical)* Machine Learning that a parameterized model can be represented by $$ f (x;\theta)$$. Here, $$x$$ is the some data that is input to the model and $$\theta$$ represents the model's parameters. The objective is to choose optimal parameters $$\theta$$ such that this model gives useful insights such as predictions of a response variable or predicted class of a target variable etc. Quantum Machine learning in some sense translates this process into a quantum system and the model output would be a quantum state with probabilities of occurence and expectation values, and one would have to make a measurement to obtain an output. 
+We know from *(classical)* Machine Learning that a parameterized model can be represented by $$ f (x;\theta)$$. Here, $$x$$ is  some data that is input to the model and $$\theta$$ represents the model's parameters. The objective is to choose optimal parameters $$\theta$$ such that this model gives useful insights such as predictions of a response variable or predicted class of a target variable etc. Quantum Machine learning in some sense translates this process into a quantum system and the model output would be a quantum state with probabilities of occurence and expectation values, and one would have to make a measurement to obtain an output. 
 
 $$ f(x; \theta) \mapsto \ket{f(x; \theta)} $$
+
+The idea is that this Quantum Machine Learning (QML) model, which we are yet to define, has similar objectives as a CML model, but uses quantum mechanical algorithms which inherently require a measurement process in some basis to obtain an output. It is pertinent now to ask whether 1. such a thing can be done? and if yes, 2. Is there an advantage in using QML models over standard ML models?
+
+QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is a typical 
+
+```mermaid
+graph LR
+A[$$\psi$$] -->B(U)
+    B --> C(3)
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+
 
