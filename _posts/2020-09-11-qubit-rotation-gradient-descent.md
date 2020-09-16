@@ -14,7 +14,7 @@ Quantum Machine Learning is a rapidly expanding and exciting field in quantum co
 
 ## Where can one apply quantum machine learning algorithms?
 
-Some applications of quantum machine learning are enumerated:
+Let us first check out some really cool applications of quantum machine learning:
 
 1. Logistics. In logistics, there are problems that involve the interaction of several variables - like transportations systems. Quantum computers and quantum algorithms are particularly useful in solving complex combinatorial problems. 
 2. Finance. Quantum Computing has already shown to have quadratic speed-ups in Monte Carlo methods that come up in pricing assets and derivatives, risk management, portfolio management and optimization etc., with much scope for innovation. 
