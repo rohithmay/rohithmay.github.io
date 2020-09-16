@@ -60,7 +60,11 @@ Quantum mechanics introduces the method of calculating expectation values for st
 
 $$  \ket{0} \longrightarrow \boxed{M} \  _{ \sigma_z} \longrightarrow 1 $$
 
-$$ \bra{0} \sigma_z \ket{0} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = 1  $$ 
+$$ \bra{0} \sigma_z \ket{0} = \begin{bmatrix} 1 &  0 \\  \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix}  = 1  $$ 
 
-Likewise, an application 
+Likewise, one can apply the $$X$$ gate to rotate $$\ket{0}$$ by 180 degrees in the Bloch sphere to get the vector $$ \ket{1}$$ in the $$-z$$ direction. Note however that these vectors are orthogonal in Hilbert space. A measurement of $$\ket{1}$$ in $$ \sigma_z$$ would result in -1. Therefore, the value of outputs from the variational circuit ranges from +1 to -1. 
+
+$$  \ket{0} \longrightarrow \boxed{X} \longrightarrow \ket{1} \longrightarrow \boxed{M} \  _{ \sigma_z} \longrightarrow -1 $$
+
+$$ \bra{1} \sigma_z \ket{1} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = -1  $$ 
 
