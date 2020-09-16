@@ -40,11 +40,20 @@ $$ f(x; \theta) \mapsto \ket{f(x; \theta)} $$
 
 The idea is that this Quantum Machine Learning (QML) model, which we are yet to define, has similar objectives as a CML model, but uses quantum mechanical algorithms which inherently require a measurement process in some basis to obtain an output. It is pertinent now to ask whether 1. such a thing can be done? and if yes, 2. Is there an advantage in using QML models over standard ML models?
 
-QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is an example for a deterministic quantum model. Here, the state $$\ket{\psi}$$ is transformed by circuits represented by $$\boxed{U}$$ to obtain the output $$y$$, with certainty. 
+QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is an example for a **deterministic quantum model**. Here, the state $$\ket{\psi}$$ is transformed by circuits represented by $$\boxed{U}$$ to obtain the output $$y$$, with certainty. 
 
 $$ \ket{\psi} \longrightarrow \boxed{U} \longrightarrow y $$
 
-The other class that is popular in QML is the variational quantum models, which are applied in quantum chemistry amongst other fields. Examples for this model include: quantum variational eigensolver, quantum classifier, quantum support vector machines and quantum neural network. The basic premise of the variational model is that while it inputs a state $$\ket{\psi}$$, the output we obtain is a probability distribution over the possible outcomes, and one resorts to taking expectation values for the same $$\langle y \rangle $$. Also, note: the circuits $$ \boxed{U(\theta)}$$ depend on model-specific parameters $$\theta$$. 
+The other class that is popular in QML is the **variational quantum models**, which are applied in quantum chemistry amongst other fields. Examples for this model include: quantum variational eigensolver, quantum classifier, quantum support vector machines and quantum neural network. The basic premise of the variational model is that while it inputs a state $$\ket{\psi}$$, the output we obtain is a probability distribution over the possible outcomes, and one resorts to taking expectation values for the same $$\langle y \rangle $$. Also, note: the circuits $$ \boxed{U(\theta)}$$ depend on model-specific parameters $$\theta$$. 
 
 $$ \ket{\psi} \longrightarrow \boxed{U(\theta)} \longrightarrow \langle y \rangle $$
 
+### Variational quantum models
+
+One often finds several applications for the variational model, especially in the fields of chemistry and finance. This is because these variational models work really well. They run on near-term quantum hardware and are robust to noise in the system. Our simple circuit above can be extended when there are several input qubits, depicted below. The difference is that, since the outputs are probability distributions (or a superposition of output states), one hase to perform a **measurement** in a certain basis to extract a real output. The act of observing the state or measurement is represented by $$\boxed{M}$$. Note that circuits with classical input/output are represented by single lines $$ (\rightarrow)$$, while those which represent superposition of  states are represented by double lines $$ (\Rightarrow)$$. Hence, 
+
+$$ \ket{\psi}^{\bigotimes n}  \longrightarrow \boxed{U(x;\theta)} \longrightarrow   \boxed{M} \Longrightarrow   \hat{y} $$
+
+### A note on measurement
+
+Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = \begin{pmatrix}1 \\ 0 \end{pmatrix}$$, given by
