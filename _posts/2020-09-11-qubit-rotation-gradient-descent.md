@@ -76,15 +76,25 @@ $$ \bra{1} \sigma_z \ket{1} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bm
 
 
 
-Let us now get back to our model and perform the following parametrized operations. Take the $$ \ket{0} $$ state and rotate this vector through $$x$$  axis by an angle of $$\theta_1$$ and then the $$y$$ axis by $$ \theta_2$$ using the rotation matrices $$R_x(\theta_1)$$ and $$R_y(\theta_2)$$, consecutively. Suppose the state of the system after performing these operations is $$\ket{\psi}$$. Now, perform a $$\sigma_z$$ measurement to obtain the its expected value. We can easily compute this value as follows:
+Let us now get back to our model and perform the following parametrized operations. Take the $$ \ket{0} $$ state and rotate this vector through $$x$$  axis by an angle of $$\theta_1$$ and then the $$y$$ axis by $$ \theta_2$$ using the rotation matrices $$R_x(\theta_1)$$ and $$R_y(\theta_2)$$, consecutively. Suppose the state of the system after performing these operations is $$\ket{\psi}$$. Now, perform a $$\sigma_z$$ measurement to obtain the its expected value. We can easily compute this value in steps shown below:
 
 $$ \ket{0} \longrightarrow \boxed{R_x(\theta_1)} \longrightarrow \boxed{R_y(\theta_2) }  \longrightarrow  \ket{\psi} \longrightarrow \boxed{M} \ _{\sigma_z} \longrightarrow \langle \sigma_z \rangle $$
 
 Note the definitions of the rotation matrices:
 
-$$  R_x(\theta_1) = \begin{bmatrix} \cos{\frac{\theta_1}{2}}  & - i \sin{\frac{\theta_1}{2}}  \\\ - i \sin{\frac{\theta_1}{2}}    & \cos{\frac{\theta_1}{2}}   \end{bmatrix}, \ \ \ \ \  R_y(\theta_2) = \begin{bmatrix} \cos{\frac{\theta_2}{2}}.  & - \sin{\frac{\theta_2}{2}}  \\\  \sin{\frac{\theta_2}{2}}   & \cos{\frac{\theta_2}{2}}   \end{bmatrix} $$
+$$  R_x(\theta_1) = \begin{bmatrix} \cos{\frac{\theta_1}{2}}  & - i \sin{\frac{\theta_1}{2}}  \\\ - i \sin{\frac{\theta_1}{2}}    & \cos{\frac{\theta_1}{2}}   \end{bmatrix}, \ \ \ \ \  R_y(\theta_2) = \begin{bmatrix} \cos{\frac{\theta_2}{2}}  & - \sin{\frac{\theta_2}{2}}  \\\  \sin{\frac{\theta_2}{2}}   & \cos{\frac{\theta_2}{2}}   \end{bmatrix} $$
+
+The state of the system after rotations: $$\ket{\psi}$$ is measured along the $$z$$ direction as:
+
+$$ \bra{\psi} \sigma_z \ket{psi} = \bra{0} R_x^\dagger(\theta_1) R_y^\dagger(\theta_2) \sigma_z R_y(\theta_2) R_x(\theta_1) \bra{0} = \cos{\theta_1} \cos{\theta_2}$$
 
 
 
 
+
+
+
+
+
+$$ R_x^\dagger(\theta_1)$$
 
