@@ -42,13 +42,7 @@ The idea is that this Quantum Machine Learning (QML) model, which we are yet to 
 
 QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is a typical 
 
-```mermaid
-graph LR
-A[$$\psi$$] -->B(U)
-    B --> C(3)
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
+$$ \ket{\psi} \longrightarrow \box{U} \longrightarrow y $$
 
 
 
