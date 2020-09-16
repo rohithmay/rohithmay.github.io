@@ -56,4 +56,4 @@ $$ \ket{\psi}^{\bigotimes n}  \longrightarrow \boxed{U(x;\theta)} \longrightarro
 
 ### A note on measurement
 
-Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = \begin{pmatrix}1 \\ 0 \end{pmatrix}$$, given by
+Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = \begin{psmallmatrix}1 \\ 0 \end{psmallmatrix}$$, given by
