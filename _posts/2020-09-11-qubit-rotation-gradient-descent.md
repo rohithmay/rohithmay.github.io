@@ -92,9 +92,5 @@ $$ \bra{\psi} \sigma_z \ket{\psi} = \bra{0} \ R_x^\dagger(\theta_1)  \ R_y^\dagg
 
 Now that we have computed the expected value of this variational circuit to be $$ \bra{\psi} \sigma_z \ket{\psi} = \cos{\theta_1} \cos{\theta_2}$$, we can now think about choosing these parameters: $$\theta_1 $$ and $$\theta_2$$.
 
-{% plantuml %}
-[First] - [Second]
-{% endplantuml %}
-
 
 
