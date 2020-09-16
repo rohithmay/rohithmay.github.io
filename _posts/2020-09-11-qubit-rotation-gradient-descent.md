@@ -17,7 +17,7 @@ Some applications of quantum machine learning are enumerated:
 3. Material Science. The study of molecules is a very difficult problem with our current hardware and the hope is that quantum computers can handle these difficult computations and simulations in quantum chemistry - with applications in drug design, protein synthesis etc. 
 4. The Universe! - Richard Feynman famously quipped that nature is quantum and that any  successful model of nature must incorporate quantum effects, which quantum computing essentially involves. 
 
-> “**Nature** isn't classical, dammit, and if you want to make a simulation of **nature**, you'd better make it **quantum** mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.” -- Richard Feynman
+> “**Nature** isn't classical, dammit, and if you want to make a simulation of **nature**, you'd better make it **quantum** mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.” 									-- Richard Feynman
 
 ## Quantum Machine Learning
 
@@ -54,7 +54,7 @@ One often finds several applications for the variational model, especially in th
 
 $$ \ket{\psi}^{\bigotimes n}  \longrightarrow \boxed{U(x;\theta)} \longrightarrow   \boxed{M} \Longrightarrow   \hat{y} $$
 
-### A note on measurement
+#### A note on measurement
 
 Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = [1, 0]^T$$. In the Bloch sphere, this would be along the $$z$$ direction, and a measurement in $$\sigma_z$$ would give a value of 1.  
 
@@ -73,3 +73,10 @@ $$ \bra{1} \sigma_z \ket{1} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bm
 ![2020-09-12-qubit-rotation-gradient-descent-img02](/images/2020-09-12-qubit-rotation-gradient-descent-img02.jpg)
 
 > A visualization of the orthogonal $$\ket{0}$$ and $$\ket{1}$$ pure states in the Bloch sphere. 
+
+
+
+Let us now get back to our model and perform the following parametrized operations. Take the $$ \ket{0} $$ state and rotate this vector through $$x$$  axis by an angle of $$\theta_1$$ and then the $$y$$ axis by $$ \theta_2$$ using the rotation matrices $$R_x(\theta_1)$$ and $$R_y(\theta_2)$$, consecutively. Suppose the state of the system after performing these operations is $$\ket{\psi}$$. Now, perform a $$\sigma_z$$ measurement to obtain the its expected value. We can easily compute this value as follows:
+
+$$ \ket{0} \longrightarrow \boxed{R_x(\theta_1)} \longrightarrow \boxed{R_y(\theta_2) }  \longrightarrow  \ket{\psi} \longrightarrow \boxed{M} \ _{\sigma_z} \longrightarrow \langle \sigma_z \rangle $$
+
