@@ -40,10 +40,9 @@ $$ f(x; \theta) \mapsto \ket{f(x; \theta)} $$
 
 The idea is that this Quantum Machine Learning (QML) model, which we are yet to define, has similar objectives as a CML model, but uses quantum mechanical algorithms which inherently require a measurement process in some basis to obtain an output. It is pertinent now to ask whether 1. such a thing can be done? and if yes, 2. Is there an advantage in using QML models over standard ML models?
 
-QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is a typical 
+QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is a typical
 
-$$ \ket{\psi} \longrightarrow \boxed
-{U} \longrightarrow y $$
+$$ \ket{\psi} \longrightarrow \boxed{U} \longrightarrow y $$
 
 
 
