@@ -42,7 +42,8 @@ The idea is that this Quantum Machine Learning (QML) model, which we are yet to 
 
 QML models are broadly of two kinds: *deterministic* and *variational* quantum models. The Deutsch-Jorza algorithms is a typical 
 
-$$ \ket{\psi} \longrightarrow \box{U} \longrightarrow y $$
+$$ \ket{\psi} \longrightarrow \boxed
+{U} \longrightarrow y $$
 
 
 
