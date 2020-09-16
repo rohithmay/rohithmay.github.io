@@ -102,7 +102,7 @@ In classical Machine Learning, one defines a cost function for the chosen model,
 
 
 
-
+2020-09-12-qubit-rotation-gradient-descent-img03
 
  However, one wonders now about the analogue of this in the quantum setting. 
 
