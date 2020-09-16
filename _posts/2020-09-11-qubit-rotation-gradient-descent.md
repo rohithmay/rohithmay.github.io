@@ -44,11 +44,7 @@ QML models are broadly of two kinds: *deterministic* and *variational* quantum m
 
 $$ \ket{\psi} \longrightarrow \boxed{U} \longrightarrow y $$
 
-The other class that is popular in QML is the variational quantum models, which are applied in quantum chemistry amongst other fields. Examples for this model include: quantum variational eigensolver, quantum classifier, quantum support vector machines and quantum neural network. The basic premise of the variational model is that while it inputs a state $$\ket{\psi}$$, its circuits $$ \boxed{U(\theta)}$$ depend on model-specific parameters $$\theta$$. Further the output ha
+The other class that is popular in QML is the variational quantum models, which are applied in quantum chemistry amongst other fields. Examples for this model include: quantum variational eigensolver, quantum classifier, quantum support vector machines and quantum neural network. The basic premise of the variational model is that while it inputs a state $$\ket{\psi}$$, the output we obtain is a probability distribution over the possible outcomes, and one resorts to taking expectation values for the same $$\langle y \rangle $$. Also, note: the circuits $$ \boxed{U(\theta)}$$ depend on model-specific parameters $$\theta$$. 
 
-$$\left\langle \psi \middle| A \middle| \psi \right\rangle$$
-
-```tex
-
-```
+$$ \ket{\psi} \longrightarrow \boxed{U(\theta)} \longrightarrow \langle y \rangle $$
 
