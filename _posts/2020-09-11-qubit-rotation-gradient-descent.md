@@ -56,10 +56,9 @@ $$ \ket{\psi}^{\bigotimes n}  \longrightarrow \boxed{U(x;\theta)} \longrightarro
 
 ### A note on measurement
 
-Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = [1, 0]^T$$. In the Bloch sphere, this would be along the $$z$$ direction, and a measurement in $$\sigma_z$$ would give a value of 1.  Noting that $$ \sigma_z$$ is:
+Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = [1, 0]^T$$. In the Bloch sphere, this would be along the $$z$$ direction, and a measurement in $$\sigma_z$$ would give a value of 1.  
 
-$$ \sigma_z = \begin{bmatrix}  1 & 0 \\\ 0 & -1 \end{bmatrix} $$
+$$ \begin{eqnarray}  \ket{0} \longrightarrow \boxed{M}_{ \sigma_z} \longrightarrow 1 \\ \bra{0} \sigma_z \ket{0} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = 1 \end{eqnarray} $$ 
 
-we have,
+Likewise, an application 
 
-$$ \bra{0} \sigma_z \ket{0} = \begin{bmatrix} 0 &  1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = 1 $$
