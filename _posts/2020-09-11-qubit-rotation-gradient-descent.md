@@ -70,3 +70,6 @@ $$ X \bra{0} = \begin{bmatrix} 0 & 1 \\ 1& 0  \end{bmatrix} \begin{bmatrix} 1 \\
 
 $$ \bra{1} \sigma_z \ket{1} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = -1  $$ 
 
+![2020-09-12-qubit-rotation-gradient-descent-img02](/images/2020-09-12-qubit-rotation-gradient-descent-img02.jpg)
+
+> A visualization of the orthogonal $$\ket{0}$$ and $$\ket{1}$$ pure states in the Bloch sphere. 
