@@ -19,7 +19,7 @@ Some applications of quantum machine learning are enumerated:
 
 > “**Nature** isn't classical, dammit, and if you want to make a simulation of **nature**, you'd better make it **quantum** mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.” -- Richard Feynman
 
-## What is Quantum Machine Learning?
+## Quantum Machine Learning
 
 Researchers often cast quantum and classical computing methods into the following four blocks, based on the classical/quantum nature of the data generating system and the data processing device. 
 
@@ -41,5 +41,8 @@ CQ and QQ are used synonymously with *quantum machine learning*. In CQ, one uses
 
 ### Quantum Quantum (QQ)
 
-In physics and chemistry, one often wishes to simulate dynamics of a system that is inherently quantum mechanical in nature. When quantum computers are used in the generation/simulation of quantum mechanical system we refer to it as QQ. $$\ket{\psi} \dagger$$  Abc.
+In physics and chemistry, one often wishes to simulate dynamics of a system that is inherently quantum mechanical in nature. When quantum computers are used in the generation/simulation of quantum mechanical system we refer to it as QQ.
 
+### Quantum Machine Learning Models
+
+We know from *(classical)* Machine Learning that a parameterized model can be represented by $ f (x;\theta)$. Here, $x$ is the some data input to the model.
