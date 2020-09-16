@@ -23,7 +23,7 @@ Some applications of quantum machine learning are enumerated:
 
 Researchers often cast quantum and classical computing methods into the following four blocks, based on the classical/quantum nature of the data generating system and the data processing device. 
 
-![2020-09-12-qubit-rotation-gradient-descent-img01](/images/2020-09-12-qubit-rotation-gradient-descent-img01.png)
+![2020-09-12-qubit-rotation-gradient-descent-img01](/images/2020-09-12-qubit-rotation-gradient-descent-img01.jpg)
 
 > Source: Schuld, Maria. *Supervised learning with quantum computers*. Springer, 2018.
 
@@ -91,6 +91,20 @@ The state of the system after rotations: $$\ket{\psi}$$ is measured along the $$
 $$ \bra{\psi} \sigma_z \ket{\psi} = \bra{0} \ R_x^\dagger(\theta_1)  \ R_y^\dagger(\theta_2)  \ \sigma_z  \ R_y(\theta_2) \  R_x(\theta_1) \ \ket{0} = \cos{\theta_1} \cos{\theta_2}$$
 
 Now that we have computed the expected value of this variational circuit to be $$ \bra{\psi} \sigma_z \ket{\psi} = \cos{\theta_1} \cos{\theta_2}$$, we can now think about choosing these parameters: $$\theta_1 $$ and $$\theta_2$$.
+
+### Circuit Optimization
+
+In classical Machine Learning, one defines a cost function for the chosen model, using techniques that minimize the cost function, one obtains the optimal values for the parameters. For example, a decision trees model has a variety of hyperparameters such as maximum depth of trees, number of child nodes at a particular parent node etc.; a random forest method involves optimizing the out-of-bag score, again using several hyperparameters. In neural networks, weights are used for the same purpose. The general scheme of optimization for the variational model would be:
+
+![2020-09-12-qubit-rotation-gradient-descent-img03](/images/2020-09-12-qubit-rotation-gradient-descent-img03.jpg)
+
+> Cost function minimisation used in ML to find optimal model parameters.
+
+
+
+
+
+ However, one wonders now about the analogue of this in the quantum setting. 
 
 
 
