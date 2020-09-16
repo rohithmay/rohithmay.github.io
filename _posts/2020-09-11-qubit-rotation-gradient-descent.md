@@ -80,3 +80,11 @@ Let us now get back to our model and perform the following parametrized operatio
 
 $$ \ket{0} \longrightarrow \boxed{R_x(\theta_1)} \longrightarrow \boxed{R_y(\theta_2) }  \longrightarrow  \ket{\psi} \longrightarrow \boxed{M} \ _{\sigma_z} \longrightarrow \langle \sigma_z \rangle $$
 
+Note the definitions of the rotation matrices:
+
+$$  R_x(\theta_1) = \begin{bmatrix} \cos{\frac{\theta_1}{2}}  & - i \sin{\frac{\theta_1}{2}}  \\\ - i \sin{\frac{\theta_1}{2}}    & \cos{\frac{\theta_1}{2}}   \end{bmatrix}, \ \ \ \ \  R_y(\theta_2) = \begin{bmatrix} \cos{\frac{\theta_2}{2}}.  & - \sin{\frac{\theta_2}{2}}  \\\  \sin{\frac{\theta_2}{2}}   & \cos{\frac{\theta_2}{2}}   \end{bmatrix} $$
+
+
+
+
+
