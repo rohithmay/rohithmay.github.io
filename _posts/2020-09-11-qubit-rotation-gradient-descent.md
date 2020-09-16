@@ -10,7 +10,7 @@ typora-root-url: ../../rohithmay.github.io
 
 ![2020-09-12-qubit-rotation-gradient-descent-img05](/images/2020-09-12-qubit-rotation-gradient-descent-img05.jpg)
 
-
+Quantum Machine Learning is a rapidly expanding and exciting field in quantum computing. This set of notes here are based on the lecture delivered by [Amira Abbas](https://www.linkedin.com/in/amira-abbas/) at the [National Institute for Theoretical Physics](https://nithep.ac.za/training/) as a part of their mini-school.  Quantum Machine Learning, Qubit Rotation and Gradient Descent are first discussed. Then a simple circuit it constructed and the parameters of the machine learning model are optimized using [Pennylane](https://pennylane.ai/). 
 
 ## Where can one apply quantum machine learning algorithms?
 
@@ -142,7 +142,7 @@ dev = qml.device("default.qubit", wires=1)
 
 ### Construct QNode
 
-To tell pennylane that the circuit that is defined is supposed to be implemented on a quantum device, we use the `qnode()` decorator. Then we apply $R_x$ and $R_y$ rotations on the pure state $|0\rangle$. Also, we perform a measurement and calculate the expected value of $\sigma_z$.
+To tell pennylane that the circuit that is defined is supposed to be implemented on a quantum device, we use the `qnode()` decorator. Then we apply $$R_x$$ and $$R_y$$ rotations on the pure state $$\ket{0}$$. Also, we perform a measurement and calculate the expected value of $$\sigma_z$$.
 
 
 ```python
@@ -265,3 +265,16 @@ print("Optimized rotation angles: {}".format(params))
 We see that in 10 iteration, the cost has been reduced to -0.99, which is rather quick.   
 We also see that the optimized rotation angles are $$\theta_1 = 0$$ and $$\theta_2 = \pi$$.  
 This makes sense because $$ \cos{0} \cos{\pi} = -1$$, which is the minimum value.
+
+![2020-09-12-qubit-rotation-gradient-descent-img06](/images/2020-09-12-qubit-rotation-gradient-descent-img06.jpg)
+
+### References
+
+[1]: Amira Abbas. [NITheP Mini School Slides](https://nithep.ac.za/wp-content/uploads/2020/09/NITheP_minischool_l1-Amira-Abbas-slides.pdf)
+
+[2]: Maria Schuld et al., [Circuit-centric quantum classifiers.](https://arxiv.org/pdf/1804.00633.pdf), 2020.
+
+[3]: Pennylane Tutorials. [Basic Gradient Descent on Qubit Rotation.](https://pennylane.ai/qml/demos/tutorial_qubit_rotation.html)
+
+[4]: Schuld, Maria. *Supervised learning with quantum computers*. Springer, 2018.
+
