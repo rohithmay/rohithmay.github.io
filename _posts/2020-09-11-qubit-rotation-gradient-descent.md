@@ -76,6 +76,8 @@ $$ \bra{1} \sigma_z \ket{1} = \begin{bmatrix} 0 &  1 \\  \end{bmatrix} \begin{bm
 
 
 
+### A simple variational circuit
+
 Let us now get back to our model and perform the following parametrized operations. Take the $$ \ket{0} $$ state and rotate this vector through $$x$$  axis by an angle of $$\theta_1$$ and then the $$y$$ axis by $$ \theta_2$$ using the rotation matrices $$R_x(\theta_1)$$ and $$R_y(\theta_2)$$, consecutively. Suppose the state of the system after performing these operations is $$\ket{\psi}$$. Now, perform a $$\sigma_z$$ measurement to obtain the its expected value. We can easily compute this value in steps shown below:
 
 $$ \ket{0} \longrightarrow \boxed{R_x(\theta_1)} \longrightarrow \boxed{R_y(\theta_2) }  \longrightarrow  \ket{\psi} \longrightarrow \boxed{M} \ _{\sigma_z} \longrightarrow \langle \sigma_z \rangle $$
@@ -86,15 +88,13 @@ $$  R_x(\theta_1) = \begin{bmatrix} \cos{\frac{\theta_1}{2}}  & - i \sin{\frac{\
 
 The state of the system after rotations: $$\ket{\psi}$$ is measured along the $$z$$ direction as:
 
-$$ \bra{\psi} \sigma_z \ket{psi} = \bra{0} R_x^\dagger(\theta_1) R_y^\dagger(\theta_2) \sigma_z R_y(\theta_2) R_x(\theta_1) \bra{0} = \cos{\theta_1} \cos{\theta_2}$$
+$$ \bra{\psi} \sigma_z \ket{\psi} = \bra{0} \ R_x^\dagger(\theta_1)  \ R_y^\dagger(\theta_2)  \ \sigma_z  \ R_y(\theta_2) \  R_x(\theta_1) \ \ket{0} = \cos{\theta_1} \cos{\theta_2}$$
+
+Now that we have computed the expected value of this variational circuit to be $$ \bra{\psi} \sigma_z \ket{\psi} = \cos{\theta_1} \cos{\theta_2}$$, we can now think about choosing these parameters: $$\theta_1 $$ and $$\theta_2$$.
+
+{% plantuml %}
+[First] - [Second]
+{% endplantuml %}
 
 
-
-
-
-
-
-
-
-$$ R_x^\dagger(\theta_1)$$
 
