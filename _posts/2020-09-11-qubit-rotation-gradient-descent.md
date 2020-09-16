@@ -50,10 +50,16 @@ $$ \ket{\psi} \longrightarrow \boxed{U(\theta)} \longrightarrow \langle y \rangl
 
 ### Variational quantum models
 
-One often finds several applications for the variational model, especially in the fields of chemistry and finance. This is because these variational models work really well. They run on near-term quantum hardware and are robust to noise in the system. Our simple circuit above can be extended when there are several input qubits, depicted below. The difference is that, since the outputs are probability distributions (or a superposition of output states), one hase to perform a **measurement** in a certain basis to extract a real output. The act of observing the state or measurement is represented by $$\boxed{M}$$. Note that circuits with classical input/output are represented by single lines $$ (\rightarrow)$$, while those which represent superposition of  states are represented by double lines $$ (\Rightarrow)$$. Hence, 
+One often finds several applications for the variational model, especially in the fields of chemistry and finance. This is because these variational models work really well. They run on near-term quantum hardware and are robust to noise in the system. Our simple circuit above can be extended when there are several input qubits, depicted below. Several qubits ($$n$$) are tranformed by the operations in $$\boxed{U}$$ and we obtain a function which is some kind of encoding of the data and parameters - $$ \ket{f(x;\theta)}$$. The difference therefore, is that, since the outputs are probability distributions (or a superposition of output states), one has to perform a **measurement** in a certain basis to extract a real output, which in the ML parlance would be a predictor $$\hat{y}$$. The act of observing the state or measurement is represented by $$\boxed{M}$$. Note that circuits with classical input/output are represented by single lines $$ (\rightarrow)$$, while those which represent superposition of  states are represented by double lines $$ (\Rightarrow)$$. Hence, 
 
 $$ \ket{\psi}^{\bigotimes n}  \longrightarrow \boxed{U(x;\theta)} \longrightarrow   \boxed{M} \Longrightarrow   \hat{y} $$
 
 ### A note on measurement
 
-Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = \begin{psmallmatrix}1 \\ 0 \end{psmallmatrix}$$, given by
+Quantum mechanics introduces the method of calculating expectation values for states during measurement; this is discussed briefly in this section. Consider the pure state $$\ket{0}$$. In matrix notation, this is the column vector, $$ \ket{0} = [1, 0]^T$$. In the Bloch sphere, this would be along the $$z$$ direction, and a measurement in $$\sigma_z$$ would give a value of 1.  Noting that $$ \sigma_z$$ is:
+
+$$ \sigma_z = \begin{bmatrix}  1 & 0 \\\ 0 & -1 \end{bmatrix} $$
+
+we have,
+
+$$ \bra{0} \sigma_z \ket{0} = \begin{bmatrix} 0 &  1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}  = 1 $$
