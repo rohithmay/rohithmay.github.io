@@ -12,6 +12,8 @@ typora-root-url: ../../rohithmay.github.io
 
 Quantum Machine Learning is a rapidly expanding and exciting field in quantum computing. This set of notes here are based on the lecture delivered by [Amira Abbas](https://www.linkedin.com/in/amira-abbas/) [^1] at the [National Institute for Theoretical Physics](https://nithep.ac.za/training/) as a part of their mini-school.  Quantum Machine Learning, Qubit Rotation and Gradient Descent are first discussed. Then a simple circuit it constructed and the parameters of the machine learning model are optimized using [Pennylane](https://pennylane.ai/). 
 
+A pdf version of this post is available [here](https://rohithkrishna.in/files/pdf/2020-09-11-qubit-rotation-gradient-descent.pdf). 
+
 ## Where can one apply quantum machine learning algorithms?
 
 Let us first check out some really cool applications of quantum machine learning:
