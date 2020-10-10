@@ -179,14 +179,15 @@ Template for latest updates here
                     <div class="col col-12" style="text-align:justify;">
                     </div>
                     <!-- </a> -->
-                    <b> Article of the Week. </b> </br>
-                    <em> October 10, 2020  </em> <br/>
+                    <b> Article of the Week. </b> <br/>
+                    <em> <small>October 10, 2020 </small></em> <br/>
 
                     <img style="margin: 0px 0 0px 0;"
                          id="gravatar-img"
                          src="images/2020-10-10-dirac-delta-img01.jpg"
                          class="rounded"
                          width="400" />
+                    <br/>
 
                     Why I find this interesting:
 
