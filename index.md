@@ -192,6 +192,7 @@ Template for latest updates here
                     <button type="button" class="btn btn-light active" aria-pressed="true"  >
                     <div class="col col-12" style="text-align:justify;">
                     </div>
+                    <br/>
                     <!-- </a> -->
                     <b> Article of the Week </b> <br/>
                     <em> <small>October 10, 2020 </small></em> <br/> <br/>
