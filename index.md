@@ -182,14 +182,15 @@ Template for latest updates here
                     <b> Article of the Week. </b> <br/>
                     <em> <small>October 10, 2020 </small></em> <br/>
 
+                      <div class="row">
                     <img style="margin: 0px 0 0px 0;"
                          id="gravatar-img"
                          src="images/2020-10-10-dirac-delta-img01.jpg"
                          class="rounded"
-                         width="500" />
+                         width="400" />
 
-                         In this article Prof. V Balakrishnan *(or Balki as we call him)* writes about the history of the Dirac Delta *function* and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required this $$\delta (x)$$. The most amusing thing about this article published in Resonance in 2003 is Balki's amusing exercise of googling different variations of "the Dirac delta function" and his awe at the speed of search results.
-
+                         In this article Prof. V Balakrishnan *(or Balki as we call him)* writes about the history of the Dirac Delta *function* and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required this $$\delta (x)$$ . The most amusing thing about this article published in Resonance in 2003 is Balki's amusing exercise of googling different variations of "the Dirac delta function" and his awe at the speed of search results.
+                         </div>
                     </button>
                     <br/>
                     </div> <br/>
