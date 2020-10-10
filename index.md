@@ -188,7 +188,7 @@ Template for latest updates here
                          class="rounded"
                          width="500" />
 
-                         In this article Prof. V Balakrishnan *(or Balki as we call him)* writes about the history of the Dirac Delta *function* and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required this $$\delta (x)$$. 
+                         In this article Prof. V Balakrishnan *(or Balki as we call him)* writes about the history of the Dirac Delta *function* and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required this $$\delta (x)$$. The most amusing thing about this article published in Resonance in 2003 is Balki's amusing exercise of googling different variations of "the Dirac delta function" and his awe at the speed of search results.
 
                     </button>
                     <br/>
