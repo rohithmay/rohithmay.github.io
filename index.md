@@ -186,11 +186,9 @@ Template for latest updates here
                          id="gravatar-img"
                          src="images/2020-10-10-dirac-delta-img01.jpg"
                          class="rounded"
-                         width="400" />
-                    <br/>
+                         width="500" />
 
-                    Why I find this interesting:
-
+                         In this article Prof. V Balakrishnan *(or Balki as we call him)* writes about the history of the Dirac Delta *function* and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required this $$\delta (x)$$. 
 
                     </button>
                     <br/>
