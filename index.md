@@ -196,14 +196,13 @@ Template for latest updates here
                     <b> Article of the Week </b> <br/>
                     <em> <small>October 10, 2020 </small></em> <br/>
 
-
                     <img style="margin: 0px 0 0px 0;"
                          id="gravatar-img"
                          src="images/2020-10-10-dirac-delta-img01.jpg"
                          class="rounded"
-                         width="400" /> <br/> <br/>
-                          <div style="text-align:justify;" line-height= 1px>
-                        <small> In this article Prof. V Balakrishnan <em>(or Balki as we call him)</em> writes about the history of the Dirac Delta <em>function</em> and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required it. However, the most amusing thing about this article published in Resonance in 2003 is Balki's fascinating exercise of googling different variations of "the Dirac delta function" and his awe at the magnitude and speed of search results. <a href="https://www.ias.ac.in/article/fulltext/reso/008/08/0048-0058" target="_blank"> Check out the article here. </a> </small> </div>
+                         width="400" /> <br/>
+                        <div style="text-align:justify;">
+                         In this article Prof. V Balakrishnan <em>(or Balki as we call him)</em> writes about the history of the Dirac Delta <em>function</em> and its importance in physics. He explains why the Dirac delta makes sense when it occurs in an integral, why it appears in physics problems and why Paul Dirac himself required it. However, the most amusing thing about this article published in Resonance in 2003 is Balki's fascinating exercise of googling different variations of "the Dirac delta function" and his awe at the magnitude and speed of search results. <a href="https://www.ias.ac.in/article/fulltext/reso/008/08/0048-0058" target="_blank"> Check out the article here. </a> </div>
                     </button>
                     <br/>
                     </div> <br/>
