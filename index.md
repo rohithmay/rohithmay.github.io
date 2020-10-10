@@ -134,7 +134,7 @@ Template for latest updates here
             <!-- Enter contents here -->
                         <div style="text-align:justify;">
 
-                        I'm currently in the second year of my PGDM in Research and Business Analytics at
+                      I'm currently in the second year of my PGDM in Research and Business Analytics at
                       Madras School of Economics, carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
                       <br/> <br/>
@@ -174,18 +174,34 @@ Template for latest updates here
 
 
                     <div class="col col-12 d-flex justify-content-center">
-
                     <!-- <a href="#" class="btn btn-light active" role="button" aria-pressed="true"> -->
-                      <button type="button" class="btn btn-light active" aria-pressed="true"  >
-                      <div class="col col-12" style="text-align:justify;">
-                    <em>   Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach. </em>  </div>
+                    <button type="button" class="btn btn-light active" aria-pressed="true"  >
+                    <div class="col col-12" style="text-align:justify;">
+                    </div>
                     <!-- </a> -->
+                    <b> Article of the Week. </b> </br>
+                    <em> October 10, 2020  </em> <br/>
+
+                    <img style="margin: 0px 0 0px 0;"
+                         id="gravatar-img"
+                         src="images/2020-10-10-dirac-delta-img01.jpg"
+                         class="rounded"
+                         width="400" />
+
+                    Why I find this interesting:
+
+
                     </button>
                     <br/>
-
-
-
                     </div> <br/>
+                    <!-- <em>  
+
+                    Joscha BAch quote here
+
+                     Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach. </em> -->
+
+
+
 
 
                     <!-- <a href="/rbi2020">
