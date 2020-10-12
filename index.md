@@ -213,10 +213,6 @@ Template for latest updates here
 
                      Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach. </em> -->
 
-
-
-
-
                     <!-- <a href="/rbi2020">
                     <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
 
