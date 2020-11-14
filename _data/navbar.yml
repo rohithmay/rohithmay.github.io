@@ -6,22 +6,23 @@
 #   url: /about/
 #   external: false
 
-# - title: Notes
-#   url: /notes
-#   external: false
-
 
 # - title: Archives
 #   url: /archives
 #   external: false
 
-- title: Projects
-  url: /projects
+- title: Notes
+  url: /mynotes
   external: false
 
 - title: Blog
   url: /blog
   external: false
+
+- title: Projects
+  url: /projects
+  external: false
+
 
 # - title: Reading List
 #   url: /readinglist
