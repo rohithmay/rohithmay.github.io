@@ -12,10 +12,12 @@ width = "700"/>
 <br/> <br/>
 
 
-<h1 class=display-5>📓 Notes</h1>
+<!-- <h1 class=display-5>📓 Notes</h1> -->
 
+# Notes
 
-<h3> October 2019</h3>
+### October 2020
+- 29 Sep 2020 - [**K-means Clustering**, distortion measure, image segmentation, lossy algorithm.](https://rohithkrishna.in/notes/2020-09-29-kmeans-clustering.pdf)
 
 
 
