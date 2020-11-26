@@ -203,14 +203,12 @@ Template for latest updates here
                     </button>
                     <br/>
                     </div> <br/>
-                    <!-- <em>  -->
+
 
                     Joscha BAch quote here
 
                      Nerds need to interface with the society in non-standard ways. Sometimes, I define a nerd as someone who thinks that the purpose of communication is to submit your ideas to peer-review. Normal people understand that the purpose of communication is to negotiate alignment and these purposes tend to conflict, which means the nerds have to learn how to  interact with society at large. ~ Joscha Bach. </em> -->
 
-                    <!-- <a href="/rbi2020">
-                    <button type="button" class="btn btn-primary" style="background-color: #BBDEFB; border-color: #BBDEFB; color:black;"> <strong>🏦 Exchange Rate </strong></button> </a> -->
 
 <!--    To check if katex is installed. It isn't 2020-08-10. Moved to Mathjax.                 
                     <style>
@@ -224,11 +222,6 @@ Template for latest updates here
 
 <!--
 
-
-                        I'm a student of data science and am currently carrying coursework in the areas of machine learning, finance, linear algebra etc.   <br/><br/>
-
-                        This site is both a repository of my projects & notes on topics in economics, data science and quantum computing and also my blog where I post occasional musings. <br/> <br/> -->
-
                         <!--  For colored boxes
 
                         <div class="p-3 mb-2 text-black rounded" style = "background-color: #ECEFF1;">
@@ -237,18 +230,7 @@ Template for latest updates here
 
 
 
-                        <!-- Quick links to my project pages:<br/><br/> -->
-
-                          <!--
-                                          I am a student of data science currently in my second year of PGDM, carrying out coursework in fields such as machine learning, finance and economics. Prior to this, I pursued a Masters course in physics with skills in computational physics and mathematical modeling.   <br/>  <br/>
-
-                                          This webpage is a repository of my projects and academic notes, predominantly in the fields of machine learning, macroeconomics, corporate finance, linear algebra and quantum computing. This page also doubles as my blog where I post occasional musings on life as it ebbs and flows. -->
-
-                                                  <!-- <a href="/rbi2020">
-                                                  <button type="button" class="btn btn-secondary"> <strong> Exchange Rate Volatility </strong></button> </a> -->
-
-                                                  <!-- <a href="https://rohithmay.github.io/macroeconomics-20">
-                                                  <button type="button" class="btn"> <strong> Macroeconomics </strong> </button> </a>  -->
+                      
 
                         </div>
                         <br/>
