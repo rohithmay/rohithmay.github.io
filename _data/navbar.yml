@@ -11,14 +11,15 @@
 #   url: /archives
 #   external: false
 
-- title: Notes
-  url: /mynotes
-  external: false
 
 - title: Blog
   url: /blog
   external: false
 
+- title: Notes
+  url: /mynotes
+  external: false
+  
 - title: Projects
   url: /projects
   external: false
