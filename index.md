@@ -184,14 +184,12 @@ Template for latest updates here
                       </div>
                     <br/> <br/>
 
-
+  <!--
                     <div class="col col-12 d-flex justify-content-center">
-                    <!-- <a href="#" class="btn btn-light active" role="button" aria-pressed="true"> -->
                     <button type="button" class="btn btn-light active" aria-pressed="true"  >
                     <div class="col col-12" style="text-align:justify;">
                     </div>
                     <br/>
-                    <!-- </a> -->
                     <b> Article of the Month </b> <br/>
                     <em> <small>October 10, 2020 </small></em> <br/> <br/>
 
@@ -205,7 +203,7 @@ Template for latest updates here
                     </button>
                     <br/>
                     </div> <br/>
-                    <!-- <em>  
+                    <!-- <em>  -->
 
                     Joscha BAch quote here
 
