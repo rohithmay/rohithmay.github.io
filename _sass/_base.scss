@@ -341,7 +341,6 @@ pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
-    background-color: $background-color;
     border-radius: 3px;
 }
 
@@ -353,6 +352,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    background-color: #D6DBDF;
 
     > code {
         border: 0;
