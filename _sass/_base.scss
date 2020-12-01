@@ -341,12 +341,13 @@ pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
+    background-color: $background-color;
     border-radius: 3px;
 }
 
 code {
     padding: 1px 5px;
-    background-color: $grey-color;
+
 }
 
 pre {
