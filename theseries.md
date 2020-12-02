@@ -17,7 +17,7 @@ width = "700"/>
 # Notes Series
 *These notes are organised as a series, in terms or lectures or chapters. Check out my daily notes [here.](./thenotes)*
 
-### Fixed Income Models
+
 
 
 
