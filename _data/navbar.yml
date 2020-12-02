@@ -17,9 +17,9 @@
   external: false
 
 - title: Notes
-  url: /mynotes
+  url: /thenotes
   external: false
-  
+
 - title: Projects
   url: /projects
   external: false

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Series
-permalink: /myseries
+permalink: /theseries
 ---
 <div class="col ml-auto mr-auto">
 <!-- Page header image  -->
@@ -15,7 +15,7 @@ width = "700"/>
 <!-- <h1 class=display-5>📓 Notes</h1> -->
 <div class="tip" markdown="1">
 # Notes Series
-*These notes are organised as a series, in terms or lectures or chapters. Check out my daily notes [here.](./mynotes)*
+*These notes are organised as a series, in terms or lectures or chapters. Check out my daily notes [here.](./thenotes)*
 
 ### Fixed Income Models
 
