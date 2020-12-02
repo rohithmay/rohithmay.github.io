@@ -15,7 +15,7 @@ width = "700"/>
 <!-- <h1 class=display-5>📓 Notes</h1> -->
 <div class="tip" markdown="1">
 # Notes
-*A collection of my daily notes and learnings. For series-wise notes check out [this page.](./myseries)
+*This is a collection of my daily notes and learnings. For series-wise notes check out [this page.](./myseries)*
 <!-- <br/><hr style="height:1px;border-width:0;color:gray;background-color:gray" /><br/> -->
 ## December 2020
 
