@@ -15,15 +15,9 @@ width = "700"/>
 <!-- <h1 class=display-5>📓 Notes</h1> -->
 <div class="tip" markdown="1">
 # Notes
-
-## Fall 2020
-
-
-### Fixed Income Models
-
-<br/>
-<hr  style="height:1px;border-width:0;color:gray;background-color:gray" />
-<br/>
+*A collection of my daily notes and learnings. For series-wise notes check out [this page.](./myseries)
+<!-- <br/><hr style="height:1px;border-width:0;color:gray;background-color:gray" /><br/> -->
+## December 2020
 
 - 30 Oct 2020 - [**Linear Regression**, basics of econometrics, CLRM assumptions, BLUE property, hypothesis testing in linear regression, linear model with 2 independent variables.](./notes/2020-10-30-linear-regression-econometrics-basics.pdf)
 - 09 Oct 2020 - [**Mechanics of Options**, option payoff charts, lower and upper bounds on option prices for dividend and non-dividend stocks, put-call parity](./notes/2020-10-09-mechanics-of-options.pdf)
