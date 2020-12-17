@@ -46,7 +46,7 @@ title: Rohith Krishna
                                     <i class="fa fa-envelope-square fa-2x"></i>
                                 </a>
 
-                                <a
+                                <!-- <a
                                 class="nav-link col-2"
                                 href="https://github.com/rohithmay"
                                 target="_blank"
@@ -54,7 +54,7 @@ title: Rohith Krishna
                                 data-placement="bottom"
                                 title="Github">
                                     <i class="fa fa-github fa-2x"></i>
-                                </a>
+                                </a> -->
 
                                 <a
                                 class="nav-link col-2"
@@ -135,7 +135,7 @@ Template for latest updates here
                         <div style="text-align:justify;">
 
                       I'm currently in the second year of my PGDM in Research and Business Analytics at
-                      Madras School of Economics, carrying out coursework in machine learning, finance, economics, linear algebra etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
+                      Madras School of Economics, carrying out coursework in machine learning, finance, economics, stochastic models etc. I hold a Masters in physics and am skilled in computational physics and mathematical modeling.
 
                       <br/> <br/>
 
