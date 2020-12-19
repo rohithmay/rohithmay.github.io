@@ -78,7 +78,7 @@ title: Rohith Krishna
                                 </a>
 
 
-                                <!-- <a
+                                <a
                                 class="nav-link col-2"
                                 href="https://rohithmay.wordpress.com/"
                                 target="_blank"
@@ -86,7 +86,7 @@ title: Rohith Krishna
                                 data-placement="bottom"
                                 title="Wordpress">
                                     <i class="fa fa-wordpress fa-2x"></i>
-                                </a> -->
+                                </a>
 
 
                                 </nav>
