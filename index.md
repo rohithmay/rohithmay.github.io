@@ -80,12 +80,12 @@ title: Rohith Krishna
 
                                 <a
                                 class="nav-link col-2"
-                                href="https://rohithmay.wordpress.com/"
+                                href="https://rohithmay.github.io/times"
                                 target="_blank"
                                 data-toggle="tooltip"
                                 data-placement="bottom"
-                                title="Wordpress">
-                                    <i class="fa fa-wordpress fa-2x"></i>
+                                title=":)">
+                                    <i class="fa fa-coffee fa-2x"></i>
                                 </a>
 
 
