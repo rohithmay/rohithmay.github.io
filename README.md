@@ -1,1 +1,1 @@
-rohithmay.netlify.in
+rohithmay.netlify.app
